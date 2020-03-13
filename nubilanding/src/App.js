@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Recargas from './components/recargas/recargas'
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <Recargas />
     </div>
   );
 }
