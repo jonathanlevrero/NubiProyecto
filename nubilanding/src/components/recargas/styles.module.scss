@@ -21,7 +21,7 @@
     font-weight: 500;
     text-align: center;
     color: #214960;
-    margin-top: 25%;
+    margin-top: 23%;
 }
 
 .textoRecargas {
@@ -45,3 +45,30 @@
     width: 42%;
     height: 60px;
 }
+
+.contenedorLogosPF {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+
+}
+
+.contenedorLogosSF {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+
+}
+.logos {
+    padding: 0 15px 0 15px;
+    border-left: solid 2px #d8d8d8;
+}
+
+.logosF {
+    padding: 0 15px 0 15px;
+    border-right: solid 2px transparent;
+
+}
+
