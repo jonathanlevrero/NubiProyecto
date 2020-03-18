@@ -6,6 +6,8 @@ $color-boton: #567efb;
 
 .contenedor {
   background-color: $color-fondo;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -13,11 +15,17 @@ $color-boton: #567efb;
   align-items: center;
 }
 
+.nubipaypal {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
 .titulo {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 25%;
+  margin-bottom: -20px;
 }
 .textotitulo {
   font-family: "Rubik";
@@ -27,19 +35,16 @@ $color-boton: #567efb;
   display: flex;
 }
 
-.boton{
-    margin-top: 15px;
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    color: #ffffff;
-    background-color: $color-boton;
-    border-radius: 30px;
-    border: transparent;
-    width: 16%;
-    height: 50px;
-
-
-    
+.boton {
+  margin-top: -1px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: $color-boton;
+  border-radius: 30px;
+  border: transparent;
+  width: 16%;
+  height: 50px;
 }
