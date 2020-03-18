@@ -13,7 +13,7 @@ import LogoOrigin from '../../assets/img_logo_origin.png';
 class Recargas extends React.Component {
     render () {
         return (
-            <div className={styles.contenedorGeneral}>  
+            <div className={styles.contenedorGeneral}> 
                 <div className={styles.contenedorRecarga}>
                     <h2 className={styles.titulos}>Recargá tu cuenta PayPal</h2>
                     <p className= {styles.textoRecargas}>
@@ -27,21 +27,19 @@ class Recargas extends React.Component {
                 <div className={styles.contenedorAhorra}>
                     <h2 className={styles.titulos}>Ahorrá en tus compras online</h2>
                     <div className={styles.contenedorLogosPF}>
-                        <img className={styles.logosF} src= {LogoPlay} alt="Logo Playstation Store"/>
+                        <img className={styles.logos} src= {LogoPlay} alt="Logo Playstation Store"/>
                         <img className={styles.logos} src= {LogoForever} alt="Logo Forever 21"/>
                         <img className={styles.logos} src= {LogoTwitch} alt="Logo Twitch"/>
-                        <img className={styles.logos} src= {LogoTripAdvisor} alt="Logo Trip Advisor"/>
-                        
+                        <img className={styles.logosF} src= {LogoTripAdvisor} alt="Logo Trip Advisor"/>
                     </div>
+
                     <div className={styles.contenedorLogosSF}>
-                        <img className={styles.logosF} src= {LogoAirbnb} alt="Logo Airbnb"/>  
+                        <img className={styles.logos} src= {LogoAirbnb} alt="Logo Airbnb"/>  
                         <img className={styles.logos} src= {LogoEbay} alt="Logo Ebay"/>
                         <img className={styles.logos} src= {LogoTiendaMia} alt="Logo Tienda Mia"/>
                         <img className={styles.logos} src= {LogoCarters} alt="Logo Carter's"/>
-                        <img className={styles.logos} src= {LogoOrigin} alt="Logo Origin"/>
+                        <img className={styles.logosF} src= {LogoOrigin} alt="Logo Origin"/>
                     </div>
-                    
-
                 </div>
             </div>
         ) ;
