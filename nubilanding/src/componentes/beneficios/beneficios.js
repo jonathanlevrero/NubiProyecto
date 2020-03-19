@@ -10,7 +10,7 @@ class Beneficios extends React.Component{
                     <p className={styles.guion}>-</p>
                     <p className={styles.texto}>Realizá tu recarga o retiro de tu cuenta PayPal con solo unos clicks.</p>
                 </div>
-                <div className={styles.Contenedor}>
+                {/*<div className={styles.Contenedor}>
                     <h2 className={styles.titulo}>Seguro.</h2>
                     <p className={styles.guion}>-</p>
                     <p className={styles.texto}>Contamos con monitoreo de fraudes 24/7 y cubrimos 100% de las transacciones no autorizadas verificadas.</p>
@@ -26,7 +26,7 @@ class Beneficios extends React.Component{
                     <p className={styles.texto}>Conocé dónde está tu dinero en todo momento.
                        <br></br> Sin comisiones ocultas.</p>
                 </div>
-                <botton>Registrate Gratis</botton>
+        <botton>Registrate Gratis</botton>*/}
             </div>
         )
     }

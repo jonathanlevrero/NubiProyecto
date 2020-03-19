@@ -5,16 +5,13 @@
   width: 100%;
   height: 50%;
   border: 50px solid transparent;
-  background-color: rgb(182, 179, 179);
-  position:relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  background-color: #EEEEEF;
+  
   
 }
  
 .Contenedor {
-    margin:10px;
+    
   width: 25%; /*el ancho esta bien en web*/
   height: 250%;
   border: green solid 2px;
@@ -24,14 +21,30 @@
 }
  
 .titulo{
-    font-family: 'Rubik';
-    font-size: 36px;
+  color:#1D4A62;
+  font-family: 'Rubik';
+  font-size: 36px;
 }
 .guion{
-color: blue;
+  color:#00FCCB;
+  font-size: 18px;
+  
 }
  
-p{
-font-size: 18px;
-font-family: 'Roboto';
+.texto{
+  color:#5E737E;
+  font-size: 18px;
+  font-family: 'Roboto';
 }
+
+/*.boton{
+  background-color: #6159FF;
+  color:#FAF3FD;
+}
+subtitulo:
+guion: 
+parrafo:
+fondo:
+boton-fondo:
+letra-boton:
+*/
