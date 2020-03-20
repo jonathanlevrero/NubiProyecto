@@ -63,13 +63,17 @@
     margin-left: 5%;
 }
 
-.logos {
+.logo {
     padding: 0 10px 0 10px;
     border-right: solid 2px #d8d8d8;
 }
 
-.logosF {
+img:nth-child(4){
     padding: 0 10px 0 10px;
     border-left: solid 2px transparent;
 }
 
+img:nth-last-child(1) {
+    padding: 0 10px 0 10px;
+    border-left: solid 2px transparent;
+}
