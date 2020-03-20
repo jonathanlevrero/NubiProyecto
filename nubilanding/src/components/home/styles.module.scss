@@ -52,11 +52,66 @@ $color-boton: #567efb;
   width: 100%;
   align-items: flex-end;
 }
-.contenedor2{
+.contenedorespequeños {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.contenedor2 {
   background-color: $color-fondo;
   display: flex;
-  width: 100%;
-  justify-content: center;
+  width: 700px;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  
+}
+.paypal {
+  color: $color-boton;
+  font-family: Rubik light;
+  font-size: 48px;
+  font-style: italic;
+}
+.textopaypal {
+  font-family: Roboto Regular;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.miraelvideo {
+  color: $color-boton;
+  font-family: Roboto Regular;
+  font-size: 18px;
+  border: solid 2px;
+  border-radius: 30px;
+  text-align: center;
+  width: 24%;
+  height: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.vermas {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: $color-boton;
+  border-radius: 30px;
+  border: transparent;
+  width: 24%;
+  height: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contenedor3 {
+  background-color: $color-fondo;
+  display: flex;
+  width: 700px;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  
 }

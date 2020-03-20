@@ -24,17 +24,40 @@ function Home() {
                 </div>
 
             </div>
-            <div>
-                <div className={styles.contenedor2}>
-                    <h2 className={styles.paypal}>
-                        Retiros Paypal
+        
+        
+        <div className={styles.contenedorespequeños}>
+            <div className={styles.contenedor2}>
+                <h2 className={styles.paypal}>
+                    Retiros Paypal
                     </h2>
-                    <h3 className={styles.ventapaypal}>
-
-                    </h3>
-                </div>
-                <div className={styles.contenedor3}></div>
+                <p1 className={styles.textopaypal}>
+                    Vendé con Paypal, retirá tu plata con Nubi
+                    </p1>
+                <button className={styles.miraelvideo}>
+                    Mirá el video
+                    </button>
+                <button className={styles.vermas}>
+                    Ver más
+                    </button>
             </div>
+            <div>
+                <div className={styles.contenedor3}>
+                    <h2 className={styles.paypal}>
+                        Recargas Paypal
+                    </h2>
+                    <p1 className={styles.textopaypal}>
+                        Recargá plata con Nubi, comprá con Paypal
+                    </p1>
+                    <button className={styles.miraelvideo}>
+                        Mirá el video
+                    </button>
+                    <button className={styles.vermas}>
+                        Ver más
+                    </button>
+                </div>
+            </div>
+        </div>
         </div>
     );
 }
