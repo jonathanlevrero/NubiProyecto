@@ -6,8 +6,6 @@ $color-boton: #567efb;
 
 .contenedor {
   background-color: $color-fondo;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -47,4 +45,18 @@ $color-boton: #567efb;
   border: transparent;
   width: 16%;
   height: 50px;
+}
+.ContenedorCelular {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+}
+.contenedor2{
+  background-color: $color-fondo;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

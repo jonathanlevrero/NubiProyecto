@@ -18,11 +18,22 @@ function Home() {
                 <button className={styles.boton}>
                     Registrate gratis
                     </button>
-                   
+                <div className={styles.ContenedorCelular}>
+                    <img className={styles.Celular} src={Celular} alt="Celular" />
+
+                </div>
+
             </div>
             <div>
-                <div>un cuadradito</div>
-                <div>el otro cuadradito</div>
+                <div className={styles.contenedor2}>
+                    <h2 className={styles.paypal}>
+                        Retiros Paypal
+                    </h2>
+                    <h3 className={styles.ventapaypal}>
+
+                    </h3>
+                </div>
+                <div className={styles.contenedor3}></div>
             </div>
         </div>
     );
