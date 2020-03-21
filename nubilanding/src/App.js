@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Beneficios from './componentes/beneficios/beneficios';
+import Beneficios from './components/beneficios/beneficios';
 
 function App() {
   return (
