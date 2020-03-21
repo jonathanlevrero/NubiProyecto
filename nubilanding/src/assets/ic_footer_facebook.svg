@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_footer_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_footer_facebook" fill="#FFFFFF">
+            <g id="Group-11" transform="translate(8.000000, 3.000000)">
+                <path d="M0.510204082,7.03371783 L2.41758699,7.03371783 L2.41758699,5.13819876 C2.41758699,4.30301686 2.43820148,3.01419698 3.0327668,2.21561668 C3.65771137,1.37045253 4.51701015,0.795918367 5.9936587,0.795918367 C8.40012928,0.795918367 9.41349426,1.14640639 9.41349426,1.14640639 L8.93719102,4.03571429 C8.93719102,4.03571429 8.14190566,3.80057675 7.39978398,3.80057675 C6.6576623,3.80057675 5.9936587,4.07231588 5.9936587,4.83096717 L5.9936587,7.03371783 L9.03592358,7.03371783 L8.82435381,9.85647737 L5.9936587,9.85647737 L5.9936587,19.6601597 L2.41758699,19.6601597 L2.41758699,9.85647737 L0.510204082,9.85647737 L0.510204082,7.03371783 Z" id="Fill-8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

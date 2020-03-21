@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_footer_youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="20.8258776 14.6239592 0 14.6239592 0 0.000244897959 20.8258776 0.000244897959 20.8258776 14.6239592"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_footer_youtube">
+            <g id="Page-1" transform="translate(2.000000, 5.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M20.8258776,11.0353469 L20.8258776,3.58922449 C20.8258776,3.58922449 20.8258776,0.000244897959 17.2356735,0.000244897959 L3.5875102,0.000244897959 C3.5875102,0.000244897959 -0.000244897959,0.000244897959 -0.000244897959,3.58922449 L-0.000244897959,11.0353469 C-0.000244897959,11.0353469 -0.000244897959,14.6243265 3.5875102,14.6243265 L17.2356735,14.6243265 C17.2356735,14.6243265 20.8258776,14.6243265 20.8258776,11.0353469 L20.8258776,11.0353469 Z M14.4560816,7.32269388 L7.63812245,11.3267755 L7.63812245,3.31738776 L14.4560816,7.32269388 Z" id="Fill-1" fill="#FEFEFE" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
