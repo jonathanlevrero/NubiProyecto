@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../retiros/styles.module.scss'
+import styles from './styles.module.scss';
 
 class Retiros extends React.Component {
     render () {
