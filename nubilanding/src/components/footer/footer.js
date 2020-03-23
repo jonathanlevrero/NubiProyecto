@@ -14,11 +14,11 @@ class Footer extends React.Component {
         return (
             <div className= {styles.contenedor}>
                 <div className= {styles.contenedorLogoNubi}>
-                    <img className= {styles.logoNubi} src={LogoNubi} alt='Logo Nubi'/>
-                    <p className={styles.textoCopyright}>Copyright © 2017. <span>Nubi</span> S.A</p>
+                    <img src={LogoNubi} alt='Logo Nubi'/>
+                    <p>Copyright © 2017. <b>Nubi</b> S.A</p>
                 </div>
                 <div className={styles.contenedorLogoPaypal}>
-                    <img className={styles.logoPaypal} src={LogoPaypal} alt='Logo Paypal'/>
+                    <img src={LogoPaypal} alt='Logo Paypal'/>
                 </div>
                 <div className= {styles.seguinos}>
                     <h2>Seguinos!</h2>

@@ -11,30 +11,33 @@
 .contenedorLogoNubi {
     display: flex;
     flex-direction: column;
-    width: 20%;
-}
-
-.logoNubi{
-
-}
-
-.textoCopyright{
+    width: 15%;
+    margin: 0 0 0 50px;
     text-align: center;
 }
 
+.contenedorLogoNubi p {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 11px;
+    color: #979696;
+}
 
+.contenedorLogoNubi p b {
+    font-size: 13px;
+}
 
 .contenedorLogoPaypal {
     display: flex;
-    width: 20%;
+    width: 25%;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .contenedorLogoPaypal img {
     border-radius: 10px;
-    width: 50%;
+    width: 40%;
 }
-
-
 
 .seguinos {
     width: 23%;
@@ -80,6 +83,6 @@
     color: #ffffff;
     width: 29%;
     height: 25px;
-    margin: 0 0 23px 0;
+    margin: 0 0 20px 0;
     font-size: 10px;
 }
