@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './styles.module.scss'
  
-class Beneficios extends React.Component{
-    render(){
-        return(
+function  Beneficios (){
+    return(
             <div className= {styles.contenedorGeneral}>
             
                 <div className={styles.contenedor}>
@@ -36,8 +35,7 @@ class Beneficios extends React.Component{
                 <botton className={styles.boton}>Registrate Gratis</botton>
             
             </div>/*contnedorGeneral */
-        )
-    }
+        );
 }
  
 export default Beneficios;
