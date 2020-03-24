@@ -1,0 +1,34 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedorTitulo {
+    background-image: url(../../assets/bg_main_about_us.png);   
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
+.contenedorTitulo h1 {
+    padding: 200px;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #214960;
+}
+
+.contenedorTituloSecundario {
+    width: 65%;
+    text-align: center;
+}
+
+.contenedorTituloSecundario p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
