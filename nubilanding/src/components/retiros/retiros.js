@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from '../retiros/styles.module.scss'
 
-class Retiros extends React.Component {
-    render () {
+function Retiros () {
         return (
             <div className={styles.contenedorGeneral}> 
                 <div className={styles.contenedorRetira}>
@@ -36,8 +35,8 @@ class Retiros extends React.Component {
                     </table>
                     <p className={styles.textoTabla}>
                         Recordá que a las tarifas mencionadas hay que adicionarle el IVA (21%) correspondiente. El monto mínimo para retirar es U$S 20 el máximo U$S 10.000 por operación.
-                        <br></br>
-                        <br></br>
+                    </p>
+                    <p className={styles.textoTabla}>
                         El plazo de 3 días hábiles no es aplicable para tu primer retiro superior a 2000 dólares. En ese caso, Nubi deberá validar tus fondos y, en esa primera operación, tu retiro demorará 5 días hábiles.
                     </p>
                 </div>
@@ -45,6 +44,5 @@ class Retiros extends React.Component {
             </div>
         ) ;
     };
-};
 
 export default Retiros;
