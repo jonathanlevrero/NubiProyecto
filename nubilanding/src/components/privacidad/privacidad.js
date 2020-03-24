@@ -14,7 +14,9 @@ class Privacidad extends React.Component {
                         información que compartís con nosotros ahora.
                     </p>
                 </div>
-
+                <div>
+                    
+                </div>
             </div>
         )
     }
