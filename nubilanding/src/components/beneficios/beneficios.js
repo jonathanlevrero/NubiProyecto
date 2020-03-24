@@ -31,10 +31,11 @@ class Beneficios extends React.Component{
                         <p className={styles.texto}>Conocé dónde está tu dinero en todo momento.
                         <br></br> Sin comisiones ocultas.</p>
                     </div>
-                </div>
-                    <botton className={styles.boton}>Registrate Gratis</botton>
-                
-            </div>
+                </div>{/* contenedor */} 
+                    
+                <botton className={styles.boton}>Registrate Gratis</botton>
+            
+            </div>/*contnedorGeneral */
         )
     }
 }
