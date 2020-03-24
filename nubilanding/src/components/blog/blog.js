@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
-//import bg_blog from './bg_blog.png';
+import Escritorio from '../../assets/bg_blog.png';
+import Icono from '../../assets/ic_send2_blue.svg';
 class Blog extends React.Component{
     render(){
         return(
@@ -15,7 +16,8 @@ class Blog extends React.Component{
                     <botton className={styles.enviar}>si</botton>
                 </form>
                 <botton className={styles.ver}>Ver blog</botton>
-        {/*<img src= {bg_blog} alt="escritorio"/>*/}
+            <img  className={styles.Escritorio} src= {Escritorio} alt="escritorio"/>
+            <img  className={styles.Icono} src= {Icono} alt="escritorio"/>
                 {/*</div>*/}
             </div>
         );
