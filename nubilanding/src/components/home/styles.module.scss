@@ -14,14 +14,13 @@ $color-boton: #567efb;
   align-items: center;
   position: relative;
 }
-.nubipresentacion{
+.nubipresentacion {
   display: flex;
   width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-top: 15px;
-  
 }
 
 .nubipaypal {
@@ -66,10 +65,9 @@ $color-boton: #567efb;
   position: relative;
   margin-top: 100px;
 }
-.Celular{
+.Celular {
   height: 550px;
   width: 550px;
-  
 }
 .contenedorespequeños {
   display: flex;
@@ -77,6 +75,7 @@ $color-boton: #567efb;
   width: 100%;
   justify-content: space-around;
   margin-bottom: 50px;
+  
 }
 .contenedor2 {
   background-color: $color-fondo;
@@ -84,6 +83,7 @@ $color-boton: #567efb;
   width: 600px;
   margin-top: 20px;
   height: 230px;
+  border-radius: 10px;
 
   justify-content: flex-start;
   flex-direction: column;
@@ -91,28 +91,44 @@ $color-boton: #567efb;
 }
 .paypal {
   color: $color-boton;
-  font-family: Rubik light;
+  font-family: "Rubik";
+  font-weight: 500;
   font-size: 35px;
   font-style: italic;
 }
 .textopaypal {
   color: $color-letra;
-  font-family: Roboto Regular;
+  font-family: "Roboto";
+  
   font-size: 18px;
   margin-bottom: 50px;
   margin-top: -20px;
 }
 .miraelvideo {
+ display: flex;
   background-color: transparent;
   color: $color-boton;
-  font-family: Roboto Regular;
+  font-family: "Roboto";
   font-size: 18px;
   border: solid 2px;
   border-radius: 30px;
-  text-align: center;
-  width: 24%;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 25%;
   height: 40px;
-margin-right: 25px; 
+  margin-right: 25px;
+}
+.play {
+  width: 20px;
+  margin-right: 5px;
+  
+}
+
+.txtmiraelvideo {
+  display: flex;
+  font-size: 14px;
+  margin-top: 2px;
 }
 .vermas {
   font-family: "Roboto";
@@ -125,8 +141,6 @@ margin-right: 25px;
   border: transparent;
   width: 24%;
   height: 40px;
-  
-  
 }
 .contenedor3 {
   background-color: $color-fondo;
@@ -137,11 +151,12 @@ margin-right: 25px;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px;
 }
-.botonflex{
+.botonflex {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
   justify-content: center;
-
 }

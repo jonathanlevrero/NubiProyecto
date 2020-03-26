@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import NubiPaypal from '../../assets/img_logo_nubi_paypal.svg';
 import Celular from '../../assets/img_main_section_phone@2x.png'
+import Play from '../../assets/ic_play.svg'
 function Home() {
     return (
         <div>
@@ -38,8 +39,9 @@ function Home() {
                     </p1>
                     <div className={styles.botonflex}>
                         <button className={styles.miraelvideo}>
-                            ‣ Mirá el video
-                    </button>
+                            <img className={styles.play} src={Play} alt="Boton Play" />
+                            <p1 className={styles.txtmiraelvideo}>Mirá el video</p1>
+                        </button>
                         <button className={styles.vermas}>
                             Ver más
                     </button>
@@ -55,7 +57,8 @@ function Home() {
                     </p1>
                         <div className={styles.botonflex}>
                             <button className={styles.miraelvideo}>
-                                ‣ Mirá el video
+                            <img className={styles.play} src={Play} alt="Boton Play" />
+                            <p1 className={styles.txtmiraelvideo}>Mirá el video</p1>
                     </button>
                             <button className={styles.vermas}>
                                 Ver más
