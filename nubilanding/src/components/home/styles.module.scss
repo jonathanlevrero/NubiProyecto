@@ -8,9 +8,20 @@ $color-boton: #567efb;
   background-color: $color-fondo;
   display: flex;
   width: 100%;
+  height: 500px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.nubipresentacion{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  
 }
 
 .nubipaypal {
@@ -48,37 +59,51 @@ $color-boton: #567efb;
 }
 .ContenedorCelular {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   width: 100%;
+  height: 67px;
   align-items: flex-end;
+  position: relative;
+  margin-top: 100px;
+}
+.Celular{
+  height: 550px;
+  width: 550px;
+  
 }
 .contenedorespequeños {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 .contenedor2 {
   background-color: $color-fondo;
   display: flex;
-  width: 700px;
+  width: 600px;
+  margin-top: 20px;
+  height: 230px;
+
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  
 }
 .paypal {
   color: $color-boton;
   font-family: Rubik light;
-  font-size: 48px;
+  font-size: 35px;
   font-style: italic;
 }
 .textopaypal {
+  color: $color-letra;
   font-family: Roboto Regular;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: -20px;
 }
 .miraelvideo {
+  background-color: transparent;
   color: $color-boton;
   font-family: Roboto Regular;
   font-size: 18px;
@@ -87,9 +112,7 @@ $color-boton: #567efb;
   text-align: center;
   width: 24%;
   height: 40px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+margin-right: 25px; 
 }
 .vermas {
   font-family: "Roboto";
@@ -102,16 +125,23 @@ $color-boton: #567efb;
   border: transparent;
   width: 24%;
   height: 40px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  
+  
 }
 .contenedor3 {
   background-color: $color-fondo;
   display: flex;
-  width: 700px;
+  width: 600px;
+  margin-top: 20px;
+  height: 230px;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  
+}
+.botonflex{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+
 }
