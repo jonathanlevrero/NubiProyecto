@@ -16,7 +16,7 @@
     padding: 200px;
     font-family: 'Rubik';
     font-style: italic;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 600;
     text-align: center;
     color: #214960;
@@ -28,10 +28,39 @@
     margin-top: 25px;
 }
 
-.contenedorTituloSecundario p {
+.contenedorTituloSecundario h2 {
     text-align: center;
-    font-family: 'Roboto';
-    font-size: 24px;
+    font-family: 'Rubik';
+    font-size: 26px;
     font-weight: 400;
     color: #5480FC;
+}
+
+.contenedorInformacion {
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedorInformacion h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 400;
+    color: #214960;
+    border-bottom: solid 3px #6ef2c7;
+    padding-bottom: 30px;
+}
+
+.contenedorInformacion p {
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 400;
+    font-size: 16.7px;
+    color: #214960;
+}
+
+.contenedorInformacion p:nth-child(n+4) {
+    text-indent: 15px;
+    text-align: left;
 }
