@@ -41,8 +41,11 @@
     text-align: center;
     margin-top: 30px;
 }
+.datos {
+    margin-bottom: 15%;
+}
 
-.contenedorInformacion h2 {
+.tituloSeccion {
     text-align: center;
     font-family: 'Roboto';
     font-size: 26px;
@@ -52,7 +55,7 @@
     padding-bottom: 30px;
 }
 
-.contenedorInformacion p {
+p {
     text-align: justify;
     font-family: 'Roboto';
     font-size: 400;
@@ -60,7 +63,22 @@
     color: #214960;
 }
 
-.contenedorInformacion p:nth-child(n+4) {
+.datos p:nth-child(n+4) {
     text-indent: 15px;
     text-align: left;
 }
+
+.autorizacion {
+    margin-bottom: 10%;
+}
+
+.autorizacion p:nth-last-child(2) {
+    text-indent: 15px;
+    text-align: left;
+}
+
+.autorizacion p:nth-of-type(2) {
+    text-indent: 15px;
+    text-align: left;
+}
+
