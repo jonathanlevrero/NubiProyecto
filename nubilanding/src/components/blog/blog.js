@@ -9,7 +9,7 @@ class Blog extends React.Component{
                     <h1 className={styles.titulo}>¡Sumate a nuestro Blog!</h1>
                     <p className={styles.texto}>Enterate de todas las novedades de Nubi<br></br> suscribiendote a nuestro Blog</p>
                     <form  className={styles.form}>
-                        <input type="email"   value="Dejanos tu email" className={styles.input}></input>
+                        <input type="email" name="email"  value="Dejanos tu email" className={styles.input}></input>
                         <botton type="botton" className={styles.enviar}></botton>
                     </form><br></br>
                     <botton className={styles.ver}>Ver blog</botton>
