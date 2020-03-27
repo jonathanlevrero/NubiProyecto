@@ -5,7 +5,7 @@ import Beneficios from './components/beneficios/beneficios';
 function App() {
   return (
     <div className="App">
-      <Beneficios/>
+      <Beneficios />
     </div>
   );
 }

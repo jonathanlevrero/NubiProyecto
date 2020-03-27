@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500,500i&display=swap");
  
-.contenedorGeneral{
+.contenedorGeneral {
   width: 100%;
   height: 700px;
   background-color: #EEEEEF;
 }
  
-.contenedor {         /* remember no tiene que tener margin*/
+.contenedorParrafos {         /* remember no tiene que tener margin*/
   width: 100%;
   height: 50px;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
 }  
 
-.Contenedor {
+.subContenedor {
   width: 30%; /*el ancho esta bien en web*/
   height: 250%;
   text-align: justify; 
@@ -22,34 +22,34 @@
   margin: 50px 50px 30px 25px;
 }
 
-.titulo{
+.titulo {
   font-family: 'Roboto'; 
   font-weight: 500; /*esto es para especificar grosor*/
   font-style: italic;
   font-size: 36px; 
-  color:#1D4A62;
+  color: #1D4A62;
 }
 
-.guion{
+.guion {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 36px;
-  color:#00FCCB;
+  color: #00FCCB;
   margin:  -50px auto -30px; /*solo arriba y abajo*/ 
 } 
  
-.texto{
+.texto {
   font-family: 'Roboto'; 
   font-weight: 400;
   font-size: 18px;
-  color:#5E737E;
+  color: #5E737E;
 }
 
-.boton{
+.boton {
   font-family: 'Roboto';
   font-weight: 500;
-  font-size:14px;
-  color:#FAF3FD;
+  font-size: 14px;
+  color: #FAF3FD;
   background-color: #6159FF;
   padding: 20px 30px;
   border: transparent solid 1px;
