@@ -1,56 +1,57 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500,500i&display=swap");
- 
+
 .contenedorGeneral {
   width: 100%;
   height: 700px;
-  background-color: #EEEEEF;
+  background-color: #eeeeef;
 }
- 
-.contenedorBeneficios {         /* remember no tiene que tener margin*/
+
+.contenedorBeneficios {
+  /* remember no tiene que tener margin*/
   width: 100%;
   height: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}  
+}
 
 .contenedorParrafos {
   width: 30%; /*el ancho esta bien en web*/
   height: 250%;
-  text-align: justify; 
+  text-align: justify;
   padding: 15px;
   margin: 50px 50px 30px 25px;
 }
 
 .titulo {
-  font-family: 'Roboto'; 
+  font-family: "Roboto";
   font-weight: 500; /*esto es para especificar grosor*/
   font-style: italic;
-  font-size: 36px; 
-  color: #1D4A62;
+  font-size: 36px;
+  color: #1d4a62;
 }
 
 .guion {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 36px;
-  color: #00FCCB;
-  margin:  -50px auto -30px; /*solo arriba y abajo*/ 
-} 
- 
+  color: #00fccb;
+  margin: -50px auto -30px; /*solo arriba y abajo*/
+}
+
 .texto {
-  font-family: 'Roboto'; 
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
-  color: #5E737E;
+  color: #5e737e;
 }
 
 .boton {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  color: #FAF3FD;
-  background-color: #6159FF;
+  color: #faf3fd;
+  background-color: #6159ff;
   padding: 20px 30px;
   border: transparent solid 1px;
   border-radius: 30px;
