@@ -28,7 +28,6 @@ function Beneficios() {
         </div>
       </div>{/* contenedorBeneficios */}
       <botton className={styles.boton}>Registrate Gratis</botton>
-
     </div>/*contnedorGeneral */
   );
 }
