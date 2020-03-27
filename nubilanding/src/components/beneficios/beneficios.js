@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './styles.module.scss';
  
-function  Beneficios(){
+function  Beneficios() {
     return(
             <div className= {styles.contenedorGeneral}>
-                <div className={styles.contenedorParrafos}>
-                    <div className={styles.subContenedor}>
+                <div className={styles.contenedorBeneficios}>
+                    <div className={styles.contenedorParrafos}>
                         <h2 className={styles.titulo}>Rápido.</h2>
                         <p className={styles.guion}>-</p>  
                         <p className={styles.texto}>Realizá tu recarga o retiro de tu cuenta PayPal con solo unos clicks.</p>
@@ -26,9 +26,9 @@ function  Beneficios(){
                         <p className={styles.texto}>Conocé dónde está tu dinero en todo momento.
                         <br></br> Sin comisiones ocultas.</p>
                     </div>
-                </div>{/* contenedorParrafos */} 
+                </div>{/* contenedorBeneficios */} 
                 <botton className={styles.boton}>Registrate Gratis</botton>
-                
+
             </div>/*contnedorGeneral */
         );
 }

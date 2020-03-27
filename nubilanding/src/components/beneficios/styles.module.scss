@@ -6,7 +6,7 @@
   background-color: #EEEEEF;
 }
  
-.contenedorParrafos {         /* remember no tiene que tener margin*/
+.contenedorBeneficios {         /* remember no tiene que tener margin*/
   width: 100%;
   height: 50px;
   display: flex;
@@ -14,7 +14,7 @@
   justify-content: center;
 }  
 
-.subContenedor {
+.contenedorParrafos {
   width: 30%; /*el ancho esta bien en web*/
   height: 250%;
   text-align: justify; 
