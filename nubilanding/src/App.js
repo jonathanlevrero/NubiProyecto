@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import Retiros from './components/retiros/retiros'
+import React from "react";
+import "./App.css";
+import Retiros from "./components/retiros/retiros";
 
 function App() {
   return (
