@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500&display=swap");
+$color-fondo: #eeeeee;
+$color-letra: #214960;
+$color-boton: #567efb;
+
+header {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: $color-fondo;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
