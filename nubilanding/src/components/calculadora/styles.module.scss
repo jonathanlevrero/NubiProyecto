@@ -1,55 +1,66 @@
 .contenedor {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .titulo {
-    font-family: 'Rubik';
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: center;
-    color: #214960;
+  font-family: "Rubik";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  color: #214960;
 }
 
 .calculadora {
-    width: 100%;
-    display: flex;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 5%;
 }
 
-.seccion {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.seccionValor {
+  width: 42%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.seccion input {
-    width: 75%;
+.seccionValor input:first-child {
+  width: 84%;
+  height: 75px;
+  font-size: 80px;
+  font-family: "Roboto";
+  color: darkgray;
+  border: transparent;
+  border-bottom: solid 2px blueviolet;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 
-.selectores {
-    width: 75%;
-    display: flex;
-}
-
-.selectores p {
-    width: 100%;
+label {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: blueviolet;
 }
 
 .flecha {
-    width: 10%;
+  margin-top: 30px;
 }
+
 .boton {
-    margin-top: 15px;
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    color: #ffffff;
-    background-color: #567efb;
-    border-radius: 30px;
-    border: transparent;
-    width: 42%;
-    height: 60px;
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: blueviolet;
+  border-radius: 30px;
+  border: transparent;
+  width: 17%;
+  height: 60px;
 }
