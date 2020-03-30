@@ -23,12 +23,8 @@ function Home() {
         </div>
         <div className={styles.ContenedorCelular}>
           <img className={styles.Celular} src={Celular} alt="Celular" />
-
         </div>
-
       </div>
-
-
       <div className={styles.contenedorespequeños}>
         <div className={styles.contenedor2}>
           <h2 className={styles.paypal}>
