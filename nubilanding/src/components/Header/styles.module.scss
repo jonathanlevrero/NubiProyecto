@@ -13,5 +13,25 @@ header {
 }
 nav ul {
   display: flex;
-  justify-content: flex-end;
+  
+}
+.Registrate{
+  color: $color-boton;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: transparent;
+}
+.Iniciarsesion{
+  color: #ffffff;
+  background-color: $color-boton;
+  border-radius: 30px;
+  border: transparent;
+  width: 115px;
+  height: 25px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
 }

@@ -8,8 +8,8 @@ function Header() {
         <header>
             <nav>
                 <ul>
-                    <a>Registrate Gratis</a>
-                    <a>Iniciar Sesión</a>
+                    <button className={styles.Registrate}>Registrate Gratis</button>
+                    <button className={styles.Iniciarsesion}>Iniciar Sesión</button>
                     
                 </ul>
             </nav>
