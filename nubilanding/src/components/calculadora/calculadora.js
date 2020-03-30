@@ -10,25 +10,33 @@ class Calculadora extends React.Component {
           <h2 className={styles.titulo}>Calculá tu retiro o recarga</h2>
         </div>
         <form className={styles.calculadora}>
-          <div className= {styles.seccionValor}>
-            <input type='text' value='0' name='valor' id='valor' />
+          <div className={styles.seccionValor}>
+            <input type="text" placeholder="0" name="monto" id="monto" />
             <label>Indicá el monto en Dólares</label>
-            <input type='radio' id='recarga' name='tipooperacion' value='recarga' />
-            <label htmlFor='recarga'>RECARGA</label>
-            <input type='radio' id='retiro' name='tipooperacion' value='retiro' />
-            <label htmlFor='retiro'>RETIRO</label>
+            <label className={styles.inputRadio} htmlFor="recarga">RECARGA
+              <input type="radio" checked="checked" id="recarga" name="tipodeoperacion" value="recarga"/>
+              <span className={styles.marcado}></span>
+            </label>
+            <label className={styles.inputRadio} htmlFor="retiro">RETIRO
+              <input type="radio" id="retiro" name="tipodeoperacion" value="retiro"/>
+              <span className={styles.marcado}></span>
+            </label>
           </div>
           <div className={styles.flecha}>
-          <img src={Flecha} alt='Boton para Calcular' />
+            <img src={Flecha} alt="Boton para Calcular" />
           </div>
-          <div className={styles.seccionValor}> 
-            <input type='text' value='0' name='resultado' id='resultado' />
+          <div className={styles.seccionValor}>
+            <input type="text" placeholder="0" name="resultado" id="resultado"/>
             <label>Monto estimado (Tarifa incluída)</label>
-            <input type='radio' name='tipomoneda' value='Pesos' />
-            <label>ARS</label>
-            <input type='radio' name='tipomoneda' value='Dolares' />
-            <label>U$S</label>
-          </div> 
+            <label className={styles.inputRadio} htmlFor="pesos">ARS
+              <input type="radio" checked="checked" id="pesos" name="tipodemoneda" value="pesos"/>
+              <span className={styles.marcado}></span>
+            </label>
+            <label className={styles.inputRadio} htmlFor="dolares">U$S
+              <input type="radio" id="dolares" name="tipodemoneda" value="dolares"/>
+              <span className={styles.marcado}></span>
+            </label>
+          </div>
         </form>
         <button className={styles.boton}>Registrate Gratis</button>
       </div>
