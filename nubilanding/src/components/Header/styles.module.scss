@@ -35,3 +35,14 @@ nav ul {
   font-size: 14px;
   font-weight: 500;
 }
+.Navicon{
+  display: flex;
+  color: $color-boton;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  background-color: transparent;
+  border: transparent;
+}
