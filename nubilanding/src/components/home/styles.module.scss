@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500&display=swap");
+
+$color-fondo: #eeeeee;
+$color-letra: #214960;
+$color-boton: #567efb;
+
+.contenedor {
+  background-color: $color-fondo;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.nubipresentacion {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.nubipaypal {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom: -20px;
+}
+
+.textotitulo {
+  font-family: "Rubik";
+  font-size: 36px;
+  font-weight: 500;
+  color: $color-letra;
+  display: flex;
+}
+
+.boton {
+  margin-top: -1px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: $color-boton;
+  border-radius: 30px;
+  border: transparent;
+  width: 16%;
+  height: 50px;
+}
+
+.ContenedorCelular {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 67px;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 86px;
+}
+
+.Celular {
+  height: 550px;
+  width: 550px;
+}
+
+.contenedorespequeños {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.contenedor2 {
+  background-color: $color-fondo;
+  display: flex;
+  width: 600px;
+  margin-top: 20px;
+  height: 230px;
+  border-radius: 10px;
+
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paypal {
+  color: $color-boton;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.textopaypal {
+  color: $color-letra;
+  font-family: "Roboto";
+
+  font-size: 18px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+
+.miraelvideo {
+  display: flex;
+  background-color: transparent;
+  color: $color-boton;
+  font-family: "Roboto";
+  font-size: 18px;
+  border: solid 2px;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 40px;
+  margin-right: 25px;
+}
+
+.play {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.txtmiraelvideo {
+  display: flex;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.vermas {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: $color-boton;
+  border-radius: 30px;
+  border: transparent;
+  width: 24%;
+  height: 40px;
+}
+
+.contenedor3 {
+  background-color: $color-fondo;
+  display: flex;
+  width: 600px;
+  margin-top: 20px;
+  height: 230px;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.botonflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: center;
+}
