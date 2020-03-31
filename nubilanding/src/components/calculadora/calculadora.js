@@ -14,7 +14,7 @@ class Calculadora extends React.Component {
             <input type="text" placeholder="0" name="monto" id="monto" />
             <label>Indicá el monto en Dólares</label>
             <label className={styles.inputRadio} htmlFor="recarga">RECARGA
-              <input type="radio" checked="checked" id="recarga" name="tipodeoperacion" value="recarga"/>
+              <input type="radio" id="recarga" name="tipodeoperacion" value="recarga"/>
               <span className={styles.marcado}></span>
             </label>
             <label className={styles.inputRadio} htmlFor="retiro">RETIRO
@@ -29,7 +29,7 @@ class Calculadora extends React.Component {
             <input type="text" placeholder="0" name="resultado" id="resultado"/>
             <label>Monto estimado (Tarifa incluída)</label>
             <label className={styles.inputRadio} htmlFor="pesos">ARS
-              <input type="radio" checked="checked" id="pesos" name="tipodemoneda" value="pesos"/>
+              <input type="radio" id="pesos" name="tipodemoneda" value="pesos"/>
               <span className={styles.marcado}></span>
             </label>
             <label className={styles.inputRadio} htmlFor="dolares">U$S
