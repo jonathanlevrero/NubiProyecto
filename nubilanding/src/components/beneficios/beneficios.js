@@ -23,12 +23,12 @@ function Beneficios() {
         <div className={styles.contenedorParrafos}>
           <h2 className={styles.titulo}>Transparente.</h2>
           <p className={styles.guion}>-</p>
-          <p className={styles.texto}>Conocé dónde está tu dinero en todo momento.
-            <br></br> Sin comisiones ocultas.</p>
+          <p className={styles.texto}>Conocé dónde está tu dinero en todo momento.</p>
+          <p className={styles.textoUltimo}>Sin comisiones ocultas.</p>
         </div>
-      </div>{/* contenedorBeneficios */}
+      </div> {/*contenedorBeneficios*/}
       <botton className={styles.boton}>Registrate Gratis</botton>
-    </div>/*contnedorGeneral */
+    </div> /*contnedorGeneral*/
   );
 }
 

@@ -2,17 +2,17 @@
 
 .contenedorGeneral {
   width: 100%;
-  height: 700px;
+  height: 790px;  /*lo agrande para igualar la altura  entre los primeros parrafos(top) y el boton(botton)*/  
   background-color: #eeeeef;
 }
 
 .contenedorBeneficios {
-  /* remember no tiene que tener margin*/
-  width: 100%;
+  width: 100%;  /*remember no tiene que tener margin para agrandar el top*/
   height: 50px;
-  display: flex;
+  display: flex;  
   flex-wrap: wrap;
   justify-content: center;
+  border-top: transparent solid 70px; /*para agrandar el top de los primeros parrafos*/
 }
 
 .contenedorParrafos {
@@ -39,11 +39,15 @@
   margin: -50px auto -30px; /*solo arriba y abajo*/
 }
 
-.texto {
+.texto, .textoUltimo { 
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   color: #5e737e;
+}
+
+.textoUltimo {
+  margin: -18px auto 0px;
 }
 
 .boton {
@@ -56,6 +60,6 @@
   border: transparent solid 1px;
   border-radius: 30px;
   position: absolute;
-  bottom: 100px;
+  bottom: 40px;
   left: 560px;
 }
