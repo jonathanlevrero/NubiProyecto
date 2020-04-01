@@ -1,84 +1,82 @@
 .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .contenedorTitulo {
-    background-image: url(../../assets/bg_main_about_us.png);   
-    background-size: cover;
-    text-align: center;
-    width: 100%;
+  background-image: url(../../assets/bg_main_about_us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
 }
 
 .contenedorTitulo h1 {
-    padding: 200px;
-    font-family: 'Rubik';
-    font-style: italic;
-    font-size: 48px;
-    font-weight: 600;
-    text-align: center;
-    color: #214960;
+  padding: 130px;
+  font-family: "Rubik";
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  color: #214960;
 }
 
 .contenedorTituloSecundario {
-    width: 65%;
-    text-align: center;
-    margin-top: 25px;
+  width: 70%;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .contenedorTituloSecundario h2 {
-    text-align: center;
-    font-family: 'Rubik';
-    font-size: 26px;
-    font-weight: 400;
-    color: #5480FC;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 29px;
+  font-weight: 300;
+  color: #5480fc;
 }
 
 .contenedorInformacion {
-    width: 70%;
-    text-align: center;
-    margin-top: 30px;
+  width: 70%;
+  text-align: center;
+  margin-top: 30px;
 }
-.datos {
-    margin-bottom: 15%;
+
+.contenedorInformacion div {
+  margin-bottom: 100px;
 }
 
 .tituloSeccion {
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: 26px;
-    font-weight: 400;
-    color: #214960;
-    border-bottom: solid 3px #6ef2c7;
-    padding-bottom: 30px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 29px;
+  font-weight: 300;
+  color: #214960;
+  border-bottom: solid 3px #6ef2c7;
+  padding-bottom: 30px;
 }
 
 p {
-    text-align: justify;
-    font-family: 'Roboto';
-    font-size: 400;
-    font-size: 16.7px;
-    color: #214960;
+  text-align: justify;
+  font-family: "Roboto";
+  font-size: 400;
+  font-size: 18px;
+  color: #214960;
 }
 
-.datos p:nth-child(n+4) {
-    text-indent: 15px;
-    text-align: left;
+.contenedorInformacion div:nth-child(1) p:nth-child(n + 4) {
+  text-indent: 15px;
+  text-align: left;
 }
 
-.autorizacion {
-    margin-bottom: 10%;
+.contenedorInformacion div:nth-child(2) p:nth-child(3) {
+  text-indent: 15px;
+  text-align: left;
 }
 
-.autorizacion p:nth-last-child(2) {
-    text-indent: 15px;
-    text-align: left;
-}
-
-.autorizacion p:nth-of-type(2) {
-    text-indent: 15px;
-    text-align: left;
+.contenedorInformacion div:nth-child(2) p:nth-child(4) {
+  text-indent: 15px;
+  text-align: left;
 }
 
