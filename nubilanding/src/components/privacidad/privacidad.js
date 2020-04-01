@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
+import LogoISO from "../../assets/Isologo.jpg"
 
 function Privacidad() {
   return (
@@ -90,6 +91,34 @@ function Privacidad() {
             navegador y eso no afectará el uso de nuestro sitio.
           </p>
         </div>
+        <div>
+          <h2 className={styles.tituloSeccion}>Confidencialidad de la Información.</h2>
+          <p>
+            Nubi no venderá, alquilará o compartirá tu información excepto en las formas establecidas en estas políticas. 
+          </p>
+          <p>
+            Sin perjuicio de ello deberemos entregar todo o parte de tu información si un juez o autoridad competente de acuerdo a las disposiciones legales vigentes así lo requiera, no siendo Nubi responsable por la información que sea revelada. 
+          </p>
+        </div>
+        <div>
+          <h2 className={styles.tituloSeccion}>Derechos de acceso, cancelación y rectificación de la información personal.</h2>
+          <p>
+            El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley N° 25.326.
+          </p>
+          <p>
+            La DIRECCION NACIONAL DE PROTECCION DE DATOS PERSONALES, Organo de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales.
+          </p>
+          <p>
+            Ante cualquier duda o rectificación que desees realizar, podés enviarnos un mail a info@tunubi.com .
+          </p>
+        </div>
+        <div>
+          <h2 className={styles.tituloSeccion}>Cambios en la política de privacidad.</h2>
+          <p>
+            Es posible que cambiemos estas políticas de tiempo en tiempo, por eso te pedimos que, independientemente de lo que te podamos informar, accedas a esta política regularmente. 
+          </p>
+        </div>
+        <img src={LogoISO} alt="Imagen ISO"/>
       </div>
     </div>
   );
