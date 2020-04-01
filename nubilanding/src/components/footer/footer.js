@@ -22,10 +22,10 @@ function Footer() {
       <div className={styles.seguinos}>
         <h2>Seguinos!</h2>
         <div className={styles.logosRedes}>
-          <button><img src={LogoInstagram} alt="Logo Instagram" /></button>
-          <button><img src={LogoTwitter} alt="Logo Twitter" /></button>
-          <button><img src={LogoFacebook} alt="Logo Facebook" /></button>
-          <button><img src={LogoYoutube} alt="Logo Youtube" /></button>
+          <img className={styles.logoInstagram} src={LogoInstagram} alt="Logo Instagram" />
+          <img className={styles.logoTwitter} src={LogoTwitter} alt="Logo Twitter" />
+          <img className={styles.logoFacebook} src={LogoFacebook} alt="Logo Facebook" />
+          <img className={styles.logoYoutube} src={LogoYoutube} alt="Logo Youtube" />
         </div>
       </div>
       <div className={styles.contenedorBotones}>
