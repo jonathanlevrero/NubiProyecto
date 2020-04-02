@@ -4,6 +4,7 @@ import Home from './components/home/home';
 import Recargas from "./components/recargas/recargas";
 import Retiros from "./components/retiros/retiros";
 import Registrarse from "./components/registrarse/registrarse";
+import Beneficios from './components/beneficios/beneficios';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Home />
       <Recargas />
       <Retiros />
-      <Registrarse />
+      <Beneficios />
+      <Registrarse /> 
     </div>
   );
 }
