@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './components/home/home';
-import Recargas from "./components/recargas/recargas";
-import Retiros from "./components/retiros/retiros";
+import Recargas from './components/recargas/recargas';
+import Retiros from './components/retiros/retiros';
 
 function App() {
   return (

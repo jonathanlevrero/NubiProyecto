@@ -14,7 +14,6 @@ $color-boton: #567efb;
   align-items: center;
   position: relative;
 }
-
 .nubipresentacion {
   display: flex;
   width: 100%;
@@ -23,13 +22,11 @@ $color-boton: #567efb;
   align-items: center;
   margin-top: 15px;
 }
-
 .nubipaypal {
   display: flex;
   justify-content: center;
   padding-bottom: 3%;
 }
-
 .titulo {
   display: flex;
   justify-content: center;
@@ -37,7 +34,6 @@ $color-boton: #567efb;
   width: 25%;
   margin-bottom: -20px;
 }
-
 .textotitulo {
   font-family: "Rubik";
   font-size: 36px;
@@ -45,7 +41,6 @@ $color-boton: #567efb;
   color: $color-letra;
   display: flex;
 }
-
 .boton {
   margin-top: -1px;
   font-family: "Roboto";
@@ -59,7 +54,6 @@ $color-boton: #567efb;
   width: 16%;
   height: 50px;
 }
-
 .ContenedorCelular {
   display: flex;
   flex-direction: row-reverse;
@@ -69,12 +63,10 @@ $color-boton: #567efb;
   position: relative;
   margin-top: 86px;
 }
-
 .Celular {
   height: 550px;
   width: 550px;
 }
-
 .contenedorespequeños {
   display: flex;
   flex-direction: row;
@@ -82,7 +74,6 @@ $color-boton: #567efb;
   justify-content: space-around;
   margin-bottom: 50px;
 }
-
 .contenedor2 {
   background-color: $color-fondo;
   display: flex;
@@ -95,7 +86,6 @@ $color-boton: #567efb;
   flex-direction: column;
   align-items: center;
 }
-
 .paypal {
   color: $color-boton;
   font-family: "Rubik";
@@ -103,7 +93,6 @@ $color-boton: #567efb;
   font-size: 35px;
   font-style: italic;
 }
-
 .textopaypal {
   color: $color-letra;
   font-family: "Roboto";
@@ -112,7 +101,6 @@ $color-boton: #567efb;
   margin-bottom: 50px;
   margin-top: -20px;
 }
-
 .miraelvideo {
   display: flex;
   background-color: transparent;
@@ -121,24 +109,20 @@ $color-boton: #567efb;
   font-size: 18px;
   border: solid 2px;
   border-radius: 30px;
-  flex-direction: row;
   justify-content: space-evenly;
   width: 25%;
   height: 40px;
   margin-right: 25px;
 }
-
 .play {
   width: 20px;
   margin-right: 5px;
 }
-
 .txtmiraelvideo {
   display: flex;
   font-size: 14px;
   margin-top: 2px;
 }
-
 .vermas {
   font-family: "Roboto";
   font-size: 18px;
@@ -151,7 +135,6 @@ $color-boton: #567efb;
   width: 24%;
   height: 40px;
 }
-
 .contenedor3 {
   background-color: $color-fondo;
   display: flex;
@@ -163,11 +146,8 @@ $color-boton: #567efb;
   align-items: center;
   border-radius: 10px;
 }
-
 .botonflex {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   width: 100%;
   justify-content: center;
 }
