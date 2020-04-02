@@ -5,6 +5,7 @@ import Recargas from "./components/recargas/recargas";
 import Retiros from "./components/retiros/retiros";
 import Registrarse from "./components/registrarse/registrarse";
 import Beneficios from './components/beneficios/beneficios';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Retiros />
       <Beneficios />
       <Registrarse /> 
+      <Footer />
     </div>
   );
 }
