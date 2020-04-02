@@ -3,9 +3,9 @@
 .contenedorGeneral {
   width: 100%;
   height: 470px; /*ajuste el matamaño del contenedor a la de la imagen*/
-  margin-top: -24px;
   background-image: url("../../assets/bg_blog.png");
   background-repeat: no-repeat;
+  background-size: cover; 
   display: flex; /*por sacar el estilo de app.js(texte-align-center)*/
   justify-content: center;
   align-content: center;
@@ -28,11 +28,11 @@
 }
 
 .texto {
-  padding: 10px 0px 0px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   color: #ededed;
+  padding: 10px 0px 0px;
 }
 
 .formContenedor {
@@ -51,14 +51,14 @@
 }
 
 .enviar {
-  padding: 9px 20px;
-  border: transparent solid 5px;
-  border-radius: 80%;
   background-color: #00ffd1;
   background-image: url("../../assets/ic_send2_blue.svg");
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: -40px;
+  padding: 9px 20px; 
+  border: transparent solid 5px;
+  border-radius: 80%;
+  margin-left: -40px; /* para que el btn este sobre el input*/
 }
 
 .ver {
