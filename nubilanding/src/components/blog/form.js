@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-
 class Form extends React.Component {
-  state = { email: '', boton: '' };
+  state = { email: ''};
   constructor(args) {
     super(args)
     this.state = {
-
+    
     }
   }
 
@@ -19,7 +18,6 @@ class Form extends React.Component {
   render() {
     return (
       <form className={styles.formContenedor}>
-        {/*<label htmlFor="email">Dejanos tu email</label>*/}
         <input
           type="email"
           name="email"
