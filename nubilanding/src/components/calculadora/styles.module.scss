@@ -27,19 +27,19 @@
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-}
 
-.seccionValor input:first-child {
-  width: 84%;
-  height: 75px;
-  font-size: 80px;
-  font-family: "Roboto";
-  color: darkgray;
-  border: transparent;
-  border-bottom: solid 2px blueviolet;
-  margin-bottom: 30px;
-  padding-bottom: 10px;
-  outline: none;
+  input:first-child {
+    width: 84%;
+    height: 75px;
+    font-size: 80px;
+    font-family: "Roboto";
+    color: darkgray;
+    border: transparent;
+    border-bottom: solid 2px #567efb;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    outline: none;
+  }
 }
 
 ::placeholder {
@@ -50,7 +50,7 @@
   font-size: 18px;
   font-family: "Roboto";
   font-weight: 600;
-  color: blueviolet;
+  color: #567efb;
 }
 
 .inputRadio {
@@ -62,7 +62,7 @@
   font-size: 18px;
   font-family: "Roboto";
   font-weight: 600;
-  color: blueviolet;
+  color: #567efb;
 
   &:hover {
     .marcado {
@@ -74,6 +74,12 @@
     position: absolute;
     opacity: 0;
     cursor: pointer;
+
+    &:checked {
+      ~ .marcado {
+        background-color: #2196f3;
+      }
+    }
   }
 }
 
@@ -87,10 +93,6 @@
   border-radius: 50%;
 }
 
-.inputRadio input:checked ~ .marcado {
-  background-color: #2196f3;
-}
-
 .flecha {
   margin-top: 30px;
 }
@@ -102,7 +104,7 @@
   font-weight: 500;
   text-align: center;
   color: #ffffff;
-  background-color: blueviolet;
+  background-color: #567efb;
   border-radius: 30px;
   border: transparent;
   width: 225px;

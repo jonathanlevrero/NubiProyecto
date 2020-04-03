@@ -9,13 +9,13 @@ class Calculadora extends React.Component {
         <h2 className={styles.titulo}>Calculá tu retiro o recarga</h2>
         <form className={styles.calculadora}>
           <div className={styles.seccionValor}>
-            <input type="text" placeholder="0" name="monto" id="monto" />
+            <input type="text" maxLength="6" placeholder="0" name="monto" id="monto" />
             <label className={styles.textoMontoInput}>
               Indicá el monto en Dólares
             </label>
             <label className={styles.inputRadio} htmlFor="recarga">
               RECARGA
-              <input className={styles.inputCheck} type="radio" id="recarga" name="tipodeoperacion" value="recarga"/>
+              <input className={styles.inputCheck} type="radio" disabled="disabled" id="recarga" name="tipodeoperacion" value="recarga"/>
               <span className={styles.marcado}/>
             </label>
             <label className={styles.inputRadio} htmlFor="retiro">
@@ -28,7 +28,7 @@ class Calculadora extends React.Component {
             <img src={Flecha} alt="Boton para Calcular" />
           </div>
           <div className={styles.seccionValor}>
-            <input type="text" placeholder="0" name="resultado" id="resultado"/>
+            <input type="text" maxLength="6" placeholder="0" name="resultado" id="resultado"/>
             <label className={styles.textoMontoInput}>
               Monto estimado (Tarifa incluída)
             </label>
@@ -39,7 +39,7 @@ class Calculadora extends React.Component {
             </label>
             <label className={styles.inputRadio} htmlFor="dolares">
               U$S
-              <input className={styles.inputCheck} type="radio" id="dolares" name="tipodemoneda" value="dolares"/>
+              <input className={styles.inputCheck} type="radio" disabled="disabled" id="dolares" name="tipodemoneda" value="dolares"/>
               <span className={styles.marcado}/>
             </label>
           </div>
