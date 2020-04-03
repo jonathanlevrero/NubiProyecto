@@ -5,7 +5,7 @@
   height: 470px; /*ajuste el matamaño del contenedor a la de la imagen*/
   background-image: url("../../assets/bg_blog.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
   display: flex; /*por sacar el estilo de app.js(texte-align-center)*/
   justify-content: center;
   align-content: center;
@@ -27,12 +27,12 @@
   color: #ffffff;
 }
 
-.texto,.textoDos {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 18px;
-  color: #ededed;
-  padding: 10px 0px 0px;
+.texto, .textoDos { 
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    color: #ededed;
+    padding: 10px 0px 0px;
 }
 
 .textoDos {
@@ -49,7 +49,7 @@
   font-size: 18px;
   color: #6a6a6a;
   background-color: #d9d9d9;
-  padding: 10px 115px 10px 20px;
+  padding: 10px 112px 10px 20px;
   border: transparent solid 5px;
   border-radius: 35px;
 }
@@ -59,9 +59,10 @@
   background-image: url("../../assets/ic_send2_blue.svg");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 11px 20px;
+  padding: 11px 20px; 
   border: transparent solid 5px;
   border-radius: 80%;
+  position: relative;
   margin-left: -45px; /* para que el btn este sobre el input*/
 }
 
