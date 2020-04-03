@@ -6,20 +6,22 @@ class Calculadora extends React.Component {
   render() {
     return (
       <div className={styles.contenedor}>
-        <div>
-          <h2 className={styles.titulo}>Calculá tu retiro o recarga</h2>
-        </div>
+        <h2 className={styles.titulo}>Calculá tu retiro o recarga</h2>
         <form className={styles.calculadora}>
           <div className={styles.seccionValor}>
             <input type="text" placeholder="0" name="monto" id="monto" />
-            <label>Indicá el monto en Dólares</label>
-            <label className={styles.inputRadio} htmlFor="recarga">RECARGA
-              <input type="radio" id="recarga" name="tipodeoperacion" value="recarga"/>
-              <span className={styles.marcado}></span>
+            <label className={styles.textoMontoInput}>
+              Indicá el monto en Dólares
             </label>
-            <label className={styles.inputRadio} htmlFor="retiro">RETIRO
+            <label className={styles.inputRadio} htmlFor="recarga">
+              RECARGA
+              <input type="radio" id="recarga" name="tipodeoperacion" value="recarga"/>
+              <span className={styles.marcado}/>
+            </label>
+            <label className={styles.inputRadio} htmlFor="retiro">
+              RETIRO
               <input type="radio" id="retiro" name="tipodeoperacion" value="retiro"/>
-              <span className={styles.marcado}></span>
+              <span className={styles.marcado}/>
             </label>
           </div>
           <div className={styles.flecha}>
@@ -27,14 +29,18 @@ class Calculadora extends React.Component {
           </div>
           <div className={styles.seccionValor}>
             <input type="text" placeholder="0" name="resultado" id="resultado"/>
-            <label>Monto estimado (Tarifa incluída)</label>
-            <label className={styles.inputRadio} htmlFor="pesos">ARS
-              <input type="radio" id="pesos" name="tipodemoneda" value="pesos"/>
-              <span className={styles.marcado}></span>
+            <label className={styles.textoMontoInput}>
+              Monto estimado (Tarifa incluída)
             </label>
-            <label className={styles.inputRadio} htmlFor="dolares">U$S
+            <label className={styles.inputRadio} htmlFor="pesos">
+              ARS
+              <input type="radio" id="pesos" name="tipodemoneda" value="pesos"/>
+              <span className={styles.marcado}/>
+            </label>
+            <label className={styles.inputRadio} htmlFor="dolares">
+              U$S
               <input type="radio" id="dolares" name="tipodemoneda" value="dolares"/>
-              <span className={styles.marcado}></span>
+              <span className={styles.marcado}/>
             </label>
           </div>
         </form>

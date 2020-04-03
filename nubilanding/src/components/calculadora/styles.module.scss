@@ -46,7 +46,7 @@
   color: #c8c8c8;
 }
 
-label {
+.textoMontoInput {
   font-size: 18px;
   font-family: "Roboto";
   font-weight: 600;
@@ -60,12 +60,21 @@ label {
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 18px;
-}
+  font-family: "Roboto";
+  font-weight: 600;
+  color: blueviolet;
 
-.inputRadio input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
+  &:hover {
+    .marcado {
+      background-color: #ccc;
+    }
+  }
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
 }
 
 .marcado {
@@ -76,10 +85,6 @@ label {
   width: 14px;
   background-color: #eee;
   border-radius: 50%;
-}
-
-.inputRadio:hover input ~ .marcado {
-  background-color: #ccc;
 }
 
 .inputRadio input:checked ~ .marcado {
