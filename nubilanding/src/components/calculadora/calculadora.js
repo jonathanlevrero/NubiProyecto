@@ -15,12 +15,12 @@ class Calculadora extends React.Component {
             </label>
             <label className={styles.inputRadio} htmlFor="recarga">
               RECARGA
-              <input type="radio" id="recarga" name="tipodeoperacion" value="recarga"/>
+              <input className={styles.inputCheck} type="radio" id="recarga" name="tipodeoperacion" value="recarga"/>
               <span className={styles.marcado}/>
             </label>
             <label className={styles.inputRadio} htmlFor="retiro">
               RETIRO
-              <input type="radio" id="retiro" name="tipodeoperacion" value="retiro"/>
+              <input className={styles.inputCheck} type="radio" id="retiro" name="tipodeoperacion" value="retiro"/>
               <span className={styles.marcado}/>
             </label>
           </div>
@@ -34,12 +34,12 @@ class Calculadora extends React.Component {
             </label>
             <label className={styles.inputRadio} htmlFor="pesos">
               ARS
-              <input type="radio" id="pesos" name="tipodemoneda" value="pesos"/>
+              <input className={styles.inputCheck} type="radio" id="pesos" name="tipodemoneda" value="pesos"/>
               <span className={styles.marcado}/>
             </label>
             <label className={styles.inputRadio} htmlFor="dolares">
               U$S
-              <input type="radio" id="dolares" name="tipodemoneda" value="dolares"/>
+              <input className={styles.inputCheck} type="radio" id="dolares" name="tipodemoneda" value="dolares"/>
               <span className={styles.marcado}/>
             </label>
           </div>
