@@ -3,13 +3,6 @@ import styles from './styles.module.scss';
 
 class Form extends React.Component {
   state = { email: '' };
-  constructor(args) {
-    super(args)
-    this.state = {
-
-    }
-  }
-
   onChange(e) {
     this.setState({
       [e.target.email]: e.target.value
