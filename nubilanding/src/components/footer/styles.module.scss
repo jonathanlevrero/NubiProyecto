@@ -8,12 +8,16 @@
 }
 
 .contenedorLogoNubi {
+  margin: 25px 0 0 10px;
+
   p {
     font-family: "Roboto";
     text-align: center;
-    margin-top: -5px;
     font-size: 11px;
     color: #979696;
+    position: relative;
+    bottom: 20px;
+    right: 7px;
   }
 }
 
