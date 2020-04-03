@@ -11,40 +11,53 @@
   background-repeat: no-repeat;
   text-align: center;
   width: 100%;
-}
 
-.contenedorTitulo h1 {
-  padding: 130px;
-  font-family: "Rubik";
-  font-style: italic;
-  font-size: 48px;
-  font-weight: 500;
-  text-align: center;
-  color: #214960;
+  h1 {
+    padding: 130px;
+    font-family: "Rubik";
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    color: #214960;
+  }
 }
 
 .contenedorTituloSecundario {
   width: 70%;
   text-align: center;
   margin-top: 25px;
-}
 
-.contenedorTituloSecundario h2 {
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 29px;
-  font-weight: 300;
-  color: #5480fc;
+  h2 {
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: 300;
+    color: #5480fc;
+  }
 }
 
 .contenedorInformacion {
   width: 70%;
   text-align: center;
   margin-top: 30px;
-}
 
-.contenedorInformacion div {
-  margin-bottom: 100px;
+  div {
+    margin-bottom: 100px;
+
+    &:nth-child(1) p:nth-child(n + 4) {
+      text-indent: 15px;
+      text-align: left;
+    }
+
+    &:nth-child(2) p:nth-child(3) {
+      text-indent: 15px;
+      text-align: left;
+    }
+
+    &:nth-child(2) p:nth-child(4) {
+      text-indent: 15px;
+      text-align: left;
+    }
+  }
 }
 
 .tituloSeccion {
@@ -57,7 +70,7 @@
   padding-bottom: 30px;
 }
 
-p {
+.texto {
   text-align: justify;
   font-family: "Roboto";
   font-size: 400;
@@ -65,21 +78,6 @@ p {
   color: #214960;
 }
 
-.contenedorInformacion div:nth-child(1) p:nth-child(n + 4) {
-  text-indent: 15px;
-  text-align: left;
-}
-
-.contenedorInformacion div:nth-child(2) p:nth-child(3) {
-  text-indent: 15px;
-  text-align: left;
-}
-
-.contenedorInformacion div:nth-child(2) p:nth-child(4) {
-  text-indent: 15px;
-  text-align: left;
-}
-
-img {
+.imagenIso {
   margin-bottom: 50px;
 }
