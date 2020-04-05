@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import NubiPaypal from '../../assets/img_logo_nubi_paypal.svg';
+import NubiPaypal from '../../assets/nubi-paypal-logo.svg';
 import Celular from '../../assets/img_main_section_phone@2x.png';
 import Play from '../../assets/ic_play.svg';
 
@@ -18,7 +18,7 @@ function Home() {
             </h2>
           </div>
           <button className={styles.boton}>
-            Registrate gratis
+            Registrate Gratis
           </button>
         </div>
         <div className={styles.ContenedorCelular}>

@@ -8,11 +8,12 @@ $color-boton: #567efb;
   background-color: $color-fondo;
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 550px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-top: 40px;
 }
 
 .nubipresentacion {
@@ -27,7 +28,11 @@ $color-boton: #567efb;
 .nubipaypal {
   display: flex;
   justify-content: center;
-  padding-bottom: 3%;
+  padding-bottom: 35px;
+
+  img {
+    width: 375px;
+  }
 }
 
 .titulo {
@@ -35,7 +40,6 @@ $color-boton: #567efb;
   justify-content: center;
   flex-direction: column;
   width: 25%;
-  margin-bottom: -20px;
 }
 
 .textotitulo {
@@ -47,7 +51,6 @@ $color-boton: #567efb;
 }
 
 .boton {
-  margin-top: -1px;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 500;
@@ -56,7 +59,7 @@ $color-boton: #567efb;
   background-color: $color-boton;
   border-radius: 30px;
   border: transparent;
-  width: 16%;
+  width: 225px;
   height: 50px;
 }
 
@@ -71,8 +74,10 @@ $color-boton: #567efb;
 }
 
 .Celular {
-  height: 550px;
-  width: 550px;
+  position: relative;
+  top: 10px;
+  height: 590px;
+  width: 700px;
 }
 
 .contenedorespequeños {
@@ -102,15 +107,15 @@ $color-boton: #567efb;
   font-weight: 500;
   font-size: 35px;
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 .textopaypal {
   color: $color-letra;
   font-family: "Roboto";
-
   font-size: 18px;
   margin-bottom: 50px;
-  margin-top: -20px;
+  margin-top: 0;
 }
 
 .miraelvideo {
