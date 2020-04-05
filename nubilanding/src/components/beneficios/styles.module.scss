@@ -2,33 +2,30 @@
 
 .contenedorGeneral {
   width: 100%;
-  height: 790px;  /*lo agrande para igualar la altura  entre los primeros parrafos(top) y el boton(botton)*/  
+  height: 750px;  /*lo agrande para igualar la altura  entre los primeros parrafos(top) y el boton(botton)*/  
   background-color: #eeeeef;
 }
 
 .contenedorBeneficios {
   width: 100%;  /*remember no tiene que tener margin para agrandar el top*/
-  height: 50px;
   display: flex;  
   flex-wrap: wrap;
   justify-content: center;
-  border-top: transparent solid 70px; /*para agrandar el top de los primeros parrafos*/
 }
 
 .contenedorParrafos {
   width: 30%; /*el ancho esta bien en web*/
-  height: 250%;
+  height: 150px;
   text-align: justify;
-  padding: 15px;
   margin: 50px 30px 20px;
 }
 
 .titulo {
-  font-family: "Roboto";
+  font-family: "Rubik";
   font-weight: 500; /*esto es para especificar grosor*/
   font-style: italic;
   font-size: 36px;
-  color: #1d4a62;
+  color: #214960;
 }
 
 .guion {
@@ -36,21 +33,19 @@
   font-weight: 500;
   font-size: 36px;
   color: #00fccb;
-  margin: -50px auto -30px; /*solo arriba y abajo*/
+  margin: 0;
+  position: relative;
+  bottom: 45px;
 }
 
 .texto {
-  .textoUltimo { 
     font-family: "Roboto";
     font-weight: 400;
-    font-size: 18px;
-    color: #5e737e;
+    font-size: 17px;
+    color: #214960;
+    position: relative;
+    bottom: 70px;
   }
-}
-
-.textoUltimo {
-  margin: -18px auto 0px;
-}
 
 .boton {
   font-family: "Roboto";
@@ -61,7 +56,7 @@
   padding: 18px 41px;
   border: transparent solid 1px;
   border-radius: 30px;
-  position:relative;
-  top: 450px;
+  position: relative;
   left: 540px;
+  top: 100px;
 }
