@@ -14,7 +14,7 @@ function Recargas() {
   return (
     <div className={styles.contenedorGeneral}>
       <div className={styles.contenedorRecarga}>
-        <h2 className={styles.titulos}>Recargá tu cuenta PayPal</h2>
+        <p className={styles.titulos}>Recargá tu cuenta PayPal</p>
         <p className={styles.textoRecargas}>
           Con Nubi agregá dinero a tu cuenta PayPal desde tu banco y comprá en
           todo el mundo sin tajeta de crédito. ¡Si no tenés cuenta PayPal

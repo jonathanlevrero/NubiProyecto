@@ -1,11 +1,11 @@
 .contenedorGeneral {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  background-image: url(../../assets/bg_recargas.png);
+  background-image: url(../../assets/bg_recargas2@2x.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 130% 100%;
 }
 
 .contenedorRecarga {
@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 50px 0 180px;
 }
 
 .titulos {
@@ -22,7 +23,7 @@
   font-weight: 500;
   text-align: center;
   color: #214960;
-  margin-top: 10.7%;
+  margin: 83px 0 30px;
 }
 
 .textoRecargas {
@@ -43,24 +44,21 @@
   background-color: #567efb;
   border-radius: 30px;
   border: transparent;
-  width: 42%;
+  width: 225px;
   height: 60px;
+}
+
+.contenedorAhorra {
+  width: 60%;
+  margin: 80px 0 50px 50px;
 }
 
 .contenedorLogos {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
-  margin-bottom: 5%;
-  margin-left: 13%;
-}
-
-.contenedorLogos:last-child {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 5%;
-  margin-left: 5%;
+  margin-bottom: 39px;
+  margin-left: 130px;
 }
 
 .logo {
