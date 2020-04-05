@@ -3,12 +3,14 @@
 .contenedorGeneral {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  background-image: url("../../assets/bg_retiros.png");
+  height: 650px;
+  background-image: url("../../assets/bg_retiros@2x.png");
   background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 140% 88%;
   background-color: #eeeeef;
+  padding-bottom: 30px;
 }
 
 .contenedorRetira {
@@ -16,6 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 140px;
 }
 
 .contenedorTabla {
@@ -23,10 +26,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 5%;
+  margin-left: 170px;
 }
 
-.tabla, td, th {
+.tabla,
+td,
+th {
   border: 1px solid #214960;
   border-collapse: collapse;
 }
@@ -66,7 +71,7 @@ td {
 .textoRetiros {
   font-family: "Roboto";
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
   text-align: center;
   color: #214960;
   width: 87%;
@@ -79,10 +84,10 @@ td {
   color: #214960;
   text-align: justify;
   margin-top: 5px;
+  width: 95%;
 }
 
 .boton {
-  margin-top: 15px;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 500;
@@ -91,7 +96,9 @@ td {
   background-color: #567efb;
   border-radius: 30px;
   border: transparent;
-  width: 17%;
+  width: 225px;
   height: 60px;
-  margin-top: 5%;
+  position: relative;
+  top: 10px;
+  left: 300px;
 }
