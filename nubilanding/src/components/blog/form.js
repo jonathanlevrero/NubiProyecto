@@ -3,11 +3,9 @@ import styles from './styles.module.scss';
 
 class Form extends React.Component {
   state = { email: '' };
-  onChange(e) {
-    this.setState({
-      [e.target.email]: e.target.value
-    })
-  }
+  
+  onChange = event => this.setState ({email : event.target.value}) 
+
   render() {
     return (
       <form className={styles.formContenedor}>
@@ -16,9 +14,9 @@ class Form extends React.Component {
           name="email"
           placeholder="Dejanos tu email"
           value={this.state.email}
-          onChange={this.onChange.bind(this)}
-          className={styles.input}></input>
-        <botton type="submit" name="boton" className={styles.enviar}></botton>
+          onChange={this.onChange}
+          className={styles.input} />
+        <button type="submit" name="boton-enviar" className={styles.botonEnviar} />
       </form>
     );
   }

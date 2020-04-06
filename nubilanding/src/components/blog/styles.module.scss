@@ -5,18 +5,17 @@
   height: 470px; /*ajuste el matamaño del contenedor a la de la imagen*/
   background-image: url("../../assets/bg_blog.png");
   background-repeat: no-repeat;
-  background-size: cover; 
-  display: flex; /*por sacar el estilo de app.js(texte-align-center)*/
-  justify-content: center;
-  align-content: center;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
 }
 
 .contenedor {
-  width: auto;
+  width: 480px;
   height: 350px;
   position: relative;
-  top: 100px;
-  margin: -30px 0px;
+  top: 50px;
+  left: 150px; 
 }
 
 .titulo {
@@ -25,53 +24,64 @@
   font-style: italic;
   font-size: 36px;
   color: #ffffff;
+  text-align: end;
+  position: relative;
+  bottom: 10px;
 }
 
-.texto, .textoDos { 
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 18px;
-    color: #ededed;
-    padding: 10px 0px 0px;
+div p:first-of-type {
+  position: relative;
+  top: 8px;
 }
 
-.textoDos {
-  margin-top: -30px;
+.texto {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ededed;
+  padding: 10px 0px 0px;
+  line-height: 10%; 
 }
 
 .formContenedor {
-  margin: 40px 0px 60px; /*agranda el espacio entre el input y el boton-ver*/
+  margin: 40px 0px 50px; /*agranda el espacio entre el input y el boton-ver*/
 }
 
 .input {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   color: #6a6a6a;
   background-color: #d9d9d9;
-  padding: 10px 115px 10px 20px;
-  border: transparent solid 5px;
+  opacity: 0.8;
+  padding: 10px 120px 10px 30px;
+  border: none;
   border-radius: 35px;
 }
 
-.enviar {
+.botonEnviar {
+  width: 42px;
+  height: 41px;
   background-color: #00ffd1;
   background-image: url("../../assets/ic_send2_blue.svg");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 9px 20px; 
-  border: transparent solid 5px;
-  border-radius: 80%;
-  margin-left: -40px; /* para que el btn este sobre el input*/
+  position: relative;
+  top: 13px;
+  right: 35px;
+  border: none;
+  border-radius: 50%;
 }
 
-.ver {
+.botonVer {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
   color: #ffffff;
   background-color: #4890ea;
+  position: relative;
+  left: 10px;
   padding: 10px 20px;
-  border: transparent solid 5px;
+  border: none;
   border-radius: 25px;
 }
