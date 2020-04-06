@@ -6,17 +6,18 @@ class Calculadora extends React.Component {
   constructor() {
     super();
     this.state = { value: "" };
-    this.onChange = this.onChange.bind(this)
+    this.onChange = this.onChange.bind(this);
   }
  
   onChange(e) {
     const regExp = /^[0-9\b]+$/;
     if (e.target.value === "" || regExp.test(e.target.value)) {
-       this.setState({value: e.target.value})
+      this.setState({ value: e.target.value });
     } else {
-      alert("El campo solo acepta numeros")
+      alert("El campo solo acepta numeros");
     }
   }
+  
   render() {
     return (
       <div className={styles.contenedor}>
