@@ -7,17 +7,18 @@
 
 .contenedorTitulo {
   background-image: url(../../assets/bg_main_about_us.png);
-  background-size: cover;
+  background-size: 117% 90%;
   background-repeat: no-repeat;
   text-align: center;
   width: 100%;
+  height: 435px;
 
   h1 {
     padding: 130px;
     font-family: "Rubik";
     font-style: italic;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 600;
     color: #214960;
   }
 }
@@ -25,7 +26,6 @@
 .contenedorTituloSecundario {
   width: 70%;
   text-align: center;
-  margin-top: 25px;
 
   h2 {
     font-family: "Roboto";
