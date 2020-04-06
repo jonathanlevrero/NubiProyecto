@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500&display=swap");
+$color-fondo: #eeeeee;
+$color-letra: #214960;
+$color-boton: #567efb;
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sidebar {
+  background-color: $color-boton;
+  width: 25%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+p{
+margin-left: 10px;
+margin-bottom: 10px;
+}
+.botones{
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.registrate {
+  color: #ffffff;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: transparent;
+}
+.iniciarSesion {
+  color: $color-boton;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: transparent;
+  width: 115px;
+  height: 25px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.cruz{
+  width: 15px;
+  margin-left: 15px;
+}
