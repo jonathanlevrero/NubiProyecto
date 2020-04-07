@@ -4,63 +4,19 @@ import styles from './styles.module.scss';
 
 
 function Header() {
-    return (
-        <header>
-            <nav>
-                <ul>
-                    <button className={styles.Registrate}>Registrate Gratis</button>
-                    <button className={styles.Iniciarsesion}>Iniciar Sesión</button>
-                    <button className={styles.Navicon}>
-                        &#9776;
-                    </button>
-
-                </ul>
-            </nav>
-        </header>
-    )
+  return (
+    <header>
+      <nav>
+        <ul>
+          <button className={styles.registrate}>Registrate Gratis</button>
+          <button className={styles.iniciarSesion}>Iniciar Sesión</button>
+          <button className={styles.navicon}>
+            &#9776;
+          </button>
+        </ul>
+      </nav>
+    </header>
+  )
 }
 
-
-
-
-
-
-
-
-
-
-
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
