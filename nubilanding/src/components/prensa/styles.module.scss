@@ -1,119 +1,129 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500,500i&display=swap");
 
-.fondoPrensa {
-	width: 100%;
-	height: auto;
+.contenedorGeneral {
+  width: 100%;
+  height: 3080px;
+  display: inline-block;
+  
 }
 
-.titulo {
-	font-family: "Roboto";
-	font-weight: 600;
-	font-style: italic;
-	font-size: 48px;
-	color: #204862;
-	position: relative;
-	position: absolute;
-	top: 20%;
-	left: 40%;	
+.contenedorTitulo {
+  width: 100%;
+  height: 435px;
+  background-image: url("../../assets/bg_main_about_us.png");
+  background-size: 117% 90%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-align: center;
+
+  h1 {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-style: italic;
+    font-size: 48px;
+    color: #214960;
+    padding: 130px;
+  }
 }
 
 .boton {
-	width: 7%;
-	height: 50px;
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-self: end;
-	color: #36769C;
-	padding: 0px 10px;
-	border: #36769C solid 1px;
-	border-radius: 20px;
-	margin: 50px 1025px 30px; 
+  width: 7%;
+  height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: end;
+  color: #36769c;
+  padding: 0px 10px;
+  border: #36769c solid 1px;
+  border-radius: 20px;
+  margin: 30px 1025px 30px;
 }
 
 .flecha {
-	margin-right: 5px; /*el espacio entre la lecha y el texto*/
+  margin-right: 5px; /*el espacio entre la lecha y el texto*/
 }
 
 .textoFlecha {
-	font-size: 14px;
-	display: flex;
-	margin-top: 16px;
+  font-size: 14px;
+  display: flex;
+  margin-top: 16px;
 }
 
 .contenedorDos {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	border-bottom: #00ECD9 solid 2px;
-	margin: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: #00ecd9 solid 2px;
+  margin: 0px 150px;
 }
 
 .subtitulo {
-	font-family: "Rubik";
-	font-weight: 300;
-	font-size: 36px;
-	color: #36769C;
+  font-family: "Rubik";
+  font-weight: 300;
+  font-size: 29px;
+  color: #36769c;
 }
 
-.textoUno, .textoDos {
-	font-family: "Roboto";
-	font-weight: 600;
-	font-size: 18px;
-	color: #36769C;
+.textoUno,
+.textoDos {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 18px;
+  color: #36769c;
 }
 
 .textoDos {
-	margin-top: -15px;
-	margin-bottom: 90px;
+  margin-top: -15px; /*cambiar*/
+  margin-bottom: 90px;
 }
 
 .imagenesParrafos {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 20px;
-	margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-.contenedorTres, .contenedorCuatro {
-	width: 25%;
-	height: 550px;
-	border: transparent solid 5px;
-	margin-bottom: 10px;
+.contenedorTres,
+.contenedorCuatro {
+  width: 25%;
+  height: 550px;
+  border: transparent solid 5px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
 }
 
-.logo{
-	width: 70%;
-	height: 250px;
-	object-fit: fill;
-	border: grey solid 1px;
-	border-radius: 20px;
-
+.logo {
+  width: 70%;
+  height: 200px;
+  border: grey solid 1px;
+  border-radius: 20px;
 }
 
 .textoAzul {
-	text-align: center;
-	font-size: 18px;
-	color: #4890EA;
-	margin-top: 25px;
-	margin-bottom: -20px; 
+  font-size: 18px;
+  color: #4890ea;
+  margin-top: 25px;
+  margin-bottom: -20px;
 }
 
 .texto {
-	text-align: left;
-	font-size: 30px;
+  text-align: left;
+  font-size: 29px;
+  text-align: center;
 }
 
 .ultimosContenedores {
-	width: 100%;
-	height: 190px;
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-top: -30px;
-	margin-left: -160px;
+  width: 100%;
+  height: 190px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -30px;
+  margin-left: -160px;
 }

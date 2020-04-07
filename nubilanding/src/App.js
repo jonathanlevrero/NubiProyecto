@@ -4,7 +4,7 @@ import Prensa from './components/prensa/prensa';
 function App() {
   return (
     <div>
-    <Prensa />
+      <Prensa />
     </div>
   );
 }
