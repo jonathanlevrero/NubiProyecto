@@ -23,38 +23,38 @@
   }
 }
 
-.contenedorTituloSecundario {
-  width: 66%;
+.tituloSecundario {
+  width: 70%;
   text-align: center;
-
-  h2 {
-    font-family: "Roboto";
-    font-size: 26px;
-    font-weight: 300;
-    color: #5480fc;
-  }
+  font-family: "Roboto";
+  font-size: 27px;
+  font-weight: 300;
+  color: #5480fc;
+  margin-bottom: 70px;
 }
 
 .contenedorInformacion {
   width: 70%;
   text-align: center;
   margin-top: 30px;
+
+  h2 {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 300;
+    color: #214960;
+    border-bottom: solid 2px #6ef2c7;
+    padding-bottom: 30px;
+  }
+  
+  p {
+    text-align: justify;
+    font-family: "Roboto";
+    font-size: 400;
+    font-size: 16.5px;
+    color: #214960;
+  }
 }
 
-.tituloSeccion {
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 29px;
-  font-weight: 300;
-  color: #214960;
-  border-bottom: solid 3px #6ef2c7;
-  padding-bottom: 30px;
-}
 
-.texto {
-  text-align: justify;
-  font-family: "Roboto";
-  font-size: 400;
-  font-size: 16.5px;
-  color: #214960;
-}
