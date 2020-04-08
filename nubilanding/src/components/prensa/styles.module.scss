@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500,500i&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Rubik:400,500&display=swap');
 
 .contenedorGeneral {
-  width: 100%;
-  height: 3080px;
-  display: inline-block;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
 }
 
 .contenedorTitulo {
@@ -13,11 +13,11 @@
   background-image: url("../../assets/bg_main_about_us.png");
   background-size: 117% 90%;
   background-repeat: no-repeat;
-  display: inline-block;
+  display: inline-block;   /*para que no me quedara un top blanco en la img-prensa- COMPARAR CON MATI*/
   text-align: center;
 
   h1 {
-    font-family: "Roboto";
+    font-family: "Rubik";
     font-weight: 600;
     font-style: italic;
     font-size: 48px;
@@ -29,19 +29,18 @@
 .boton {
   width: 7%;
   height: 50px;
-  position: relative;
   display: flex;
   justify-content: center;
   align-self: end;
   color: #36769c;
   padding: 0px 10px;
-  border: #36769c solid 1px;
+  border: #36769C solid 1px;
   border-radius: 20px;
-  margin: 30px 1025px 30px;
+  margin: 30px 1015px 30px;
 }
 
 .flecha {
-  margin-right: 5px; /*el espacio entre la lecha y el texto*/
+  margin-right: 5px; /*el espacio entre la flecha y el texto*/
 }
 
 .textoFlecha {
@@ -50,80 +49,62 @@
   margin-top: 16px;
 }
 
-.contenedorDos {
-  display: flex;
-  flex-direction: column;
+.contenedorDos { 
+  width: 75%;
+  height: 217px;
   text-align: center;
-  border-bottom: #00ecd9 solid 2px;
-  margin: 0px 150px;
+  border-bottom: #00ECD9 solid 2px; 
 }
 
 .subtitulo {
-  font-family: "Rubik";
+  font-family: "Roboto"; /*ver cambiar espacio*/
   font-weight: 300;
   font-size: 29px;
-  color: #36769c;
+  color: #36769C;
 }
 
-.textoUno,
-.textoDos {
+.textoUno {
   font-family: "Roboto";
   font-weight: 600;
   font-size: 18px;
-  color: #36769c;
+  color: #36769C;
 }
 
-.textoDos {
-  margin-top: -15px; /*cambiar*/
+.contenedorDos .textoUno:last-of-type{
+  margin-top: 0px;
   margin-bottom: 90px;
 }
 
 .imagenesParrafos {
-  position: relative;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-left: 320px; 
 }
-
-.contenedorTres,
-.contenedorCuatro {
+  
+.contenedorTres {   /*verlos espacios de bottom*/
   width: 25%;
   height: 550px;
   border: transparent solid 5px;
-  margin-bottom: 10px;
-  position: relative;
   text-align: center;
 }
 
 .logo {
   width: 70%;
   height: 200px;
-  border: grey solid 1px;
+  border: #EDEDED solid 1px;
   border-radius: 20px;
 }
 
-.textoAzul {
+.logoTitulo {
   font-size: 18px;
-  color: #4890ea;
-  margin-top: 25px;
-  margin-bottom: -20px;
+  color: #4890EA;
+  position: relative;
+  top: 18px;
 }
 
 .texto {
-  text-align: left;
-  font-size: 29px;
+  font-size: 29px; /*CONSULTAR*/
   text-align: center;
-}
-
-.ultimosContenedores {
-  width: 100%;
-  height: 190px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: -30px;
-  margin-left: -160px;
 }
