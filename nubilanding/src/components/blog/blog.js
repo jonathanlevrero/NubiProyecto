@@ -8,7 +8,7 @@ function Blog() {
       <div className={styles.contenedor}>
         <h1 className={styles.titulo}>¡Sumate a nuestro Blog!</h1>
         <p className={styles.texto}>Enterate de todas las novedades de Nubi</p>
-        <p className={styles.texto}>suscribiendote a nuestro Blog</p>
+        <p className={styles.texto}>suscribiéndote a nuestro Blog</p>
         <Form />
         <button className={styles.botonVer}>Ver blog</button>
       </div>
