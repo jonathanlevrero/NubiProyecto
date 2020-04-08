@@ -30,13 +30,11 @@
   font-size: 27px;
   font-weight: 300;
   color: #5480fc;
-  margin-bottom: 70px;
 }
 
 .contenedorInformacion {
   width: 70%;
   text-align: center;
-  margin-top: 30px;
 
   h2 {
     text-align: center;
@@ -46,6 +44,7 @@
     color: #214960;
     border-bottom: solid 2px #6ef2c7;
     padding-bottom: 30px;
+    margin-top: 110px;
   }
   
   p {
@@ -54,7 +53,39 @@
     font-size: 400;
     font-size: 16.5px;
     color: #214960;
+
+    &:nth-of-type(6) {
+      text-indent: 32px;
+      text-align: left;
+    }
+
+    &:nth-of-type(7) {
+      text-indent: 32px;
+      text-align: left;
+    }
+
+    &:nth-of-type(8) {
+      text-indent: 32px;
+      text-align: left;
+    }
+
+    &:nth-of-type(9) {
+      text-indent: 32px;
+      text-align: left;
+    }
+
+    &:nth-of-type(10) {
+      text-indent: 32px;
+      text-align: left;
+    }
+
+    &:nth-of-type(11) {
+      text-indent: 32px;
+      text-align: left;
+    }
   }
+  
 }
+
 
 
