@@ -29,28 +29,28 @@
   text-align: center;
   margin: 30px 0;
 
+  h2 {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: 600;
+    font-style: italic;
+    color: #214960;
+    border-bottom: solid 2px #6ef2c7;
+    padding-bottom: 20px;
+  }
+  
+  p {
+    text-align: justify;
+    font-family: "Roboto";
+    font-size: 400;
+    font-size: 17px;
+    color: #214960;
+  }
+
   :nth-child(6) {
     color: #567efb;
   }
-}
-
-.tituloSeccion {
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 29px;
-  font-weight: 600;
-  font-style: italic;
-  color: #214960;
-  border-bottom: solid 2px #6ef2c7;
-  padding-bottom: 20px;
-}
-
-.texto {
-  text-align: justify;
-  font-family: "Roboto";
-  font-size: 400;
-  font-size: 17px;
-  color: #214960;
 }
 
 .imagenAlianza {
