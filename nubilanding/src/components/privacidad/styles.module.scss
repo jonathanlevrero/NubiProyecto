@@ -1,0 +1,80 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contenedorTitulo {
+  background-image: url(../../assets/bg_main_about_us.png);
+  background-size: 117% 90%;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 435px;
+
+  h1 {
+    padding: 130px;
+    font-family: "Rubik";
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 600;
+    color: #214960;
+  }
+}
+
+.tituloSecundario {
+  width: 80%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 29px;
+  font-weight: 300;
+  color: #5480fc;
+}
+
+.contenedorInformacion {
+  width: 70%;
+  text-align: center;
+  margin-top: 30px;
+
+  div {
+    margin-bottom: 100px;
+
+    &:nth-child(1) p:nth-child(n + 4) {
+      text-indent: 15px;
+      text-align: left;
+    }
+
+    &:nth-child(2) p:nth-child(3) {
+      text-indent: 15px;
+      text-align: left;
+    }
+
+    &:nth-child(2) p:nth-child(4) {
+      text-indent: 15px;
+      text-align: left;
+    }
+
+    h2 {
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 29px;
+      font-weight: 300;
+      color: #214960;
+      border-bottom: solid 2px #6ef2c7;
+      padding-bottom: 30px;
+    }
+
+    p {
+      text-align: justify;
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 16.5px;
+      color: #214960;
+    }
+  }
+}
+
+.imagenIso {
+  margin-bottom: 50px;
+}
