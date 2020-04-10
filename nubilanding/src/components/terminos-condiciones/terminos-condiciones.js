@@ -51,27 +51,27 @@ function TerminosCondiciones() {
           determina:
         </p>
         <p>
-          A) <i>Servicio de Recargas:</i> es el servicio detallado en los
+          A) &nbsp;&nbsp;&nbsp;<i>Servicio de Recargas:</i> es el servicio detallado en los
           presentes términos y condiciones, que se resumen en la cláusula 4.
         </p>
         <p>
-          B) <i>Servicio de Retiros:</i> es el servicio detallado en los
+          B) &nbsp;&nbsp;&nbsp;<i>Servicio de Retiros:</i> es el servicio detallado en los
           presentes términos y condiciones, que se resumen en la cláusula 3.
         </p>
         <p>
-          C) <i>Cuenta PayPal:</i> se refiere a tu cuenta PayPal en donde operás
+          C) &nbsp;&nbsp;&nbsp;<i>Cuenta PayPal:</i> se refiere a tu cuenta PayPal en donde operás
           habitualmente.
         </p>
         <p>
-          D) <i>Cuenta Nubi:</i> es tu cuenta de registro en Nubi.
+          D) &nbsp;&nbsp;&nbsp;<i>Cuenta Nubi:</i> es tu cuenta de registro en Nubi.
         </p>
         <p>
-          E) <i>Cuenta Bancaria:</i> se refiere a la cuenta (caja de ahorros o
+          E) &nbsp;&nbsp;&nbsp;<i>Cuenta Bancaria:</i> se refiere a la cuenta (caja de ahorros o
           cuenta corriente) de tu titularidad que tengas abierta en cualquier
           banco y que será la que reciba los fondos que quieras retirar.
         </p>
         <p>
-          F) <i>Tipo de Cambio:</i> es el tipo de cambio utilizado para
+          F) &nbsp;&nbsp;&nbsp;<i>Tipo de Cambio:</i> es el tipo de cambio utilizado para
           convertir, de ser necesario, los montos en dólares a pesos.
         </p>
         <h2>3)¿Qué es el Servicio de Retiros? </h2>
