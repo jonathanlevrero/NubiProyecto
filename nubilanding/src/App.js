@@ -1,5 +1,5 @@
-import React from 'react';
-import Prensa from './components/prensa/prensa';
+import React from "react";
+import Prensa from "./components/prensa/prensa";
 
 function App() {
   return (

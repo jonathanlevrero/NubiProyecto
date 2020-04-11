@@ -1,13 +1,13 @@
-import React from 'react';
-import styles from './styles.module.scss';
-import btnDescarga from '../../assets/img_presskit_download.svg';
-import logoNacion from '../../assets/la_nacion_logo.jpg';
-import logoIprofesional from '../../assets/iprofesional.png';
-import logoInfo from '../../assets/info_technology.png';
-import logoCronista from '../../assets/el_cronista_logo.png';
-import logoTrade from '../../assets/trade_logo.png';
-import logoRs from '../../assets/rs_logo.jpg';
-import logoApertura from '../../assets/apertura_logo.png';
+import React from "react";
+import styles from "./styles.module.scss";
+import btnDescarga from "../../assets/img_presskit_download.svg";
+import logoNacion from "../../assets/la_nacion_logo.jpg";
+import logoIprofesional from "../../assets/iprofesional.png";
+import logoInfo from "../../assets/info_technology.png";
+import logoCronista from "../../assets/el_cronista_logo.png";
+import logoTrade from "../../assets/trade_logo.png";
+import logoRs from "../../assets/rs_logo.jpg";
+import logoApertura from "../../assets/apertura_logo.png";
 
 function Prensa() {
   return (
@@ -15,12 +15,12 @@ function Prensa() {
       <div className={styles.contenedorTitulo}>
         <h1>Prensa</h1>
       </div>
-      <botton className={styles.boton}>
+      <button className={styles.boton}> {/*cambiar hacer input-pregunta que clase de archivo es*/} 
         <img src={btnDescarga} alt="boton descarga" className={styles.flecha} />
         <p className={styles.textoFlecha}>Press Kit</p>
-      </botton>
+      </button>
       <div className={styles.contenedorDos}>
-        <h2 className={styles.subtitulo}>Esto dicen de nosotros.</h2>
+        <h2>Esto dicen de nosotros.</h2>
         <p className={styles.textoUno}>En caso de querer contactarnos, estaríamos más que contentos en hablar con ustedes. Solo nos tienen que escribir a</p>
         <p className={styles.textoUno}>prensa@tunubi.com!</p>
       </div>

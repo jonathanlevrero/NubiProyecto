@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Rubik:400,500&display=swap');
-
 .contenedorGeneral {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 100%; 
 }
 
@@ -14,7 +13,6 @@
   background-size: 117% 90%;
   background-repeat: no-repeat;
   display: inline-block;   /*para que no me quedara un top blanco en la img-prensa- COMPARAR CON MATI*/
-  text-align: center;
 
   h1 {
     font-family: "Rubik";
@@ -27,51 +25,51 @@
 }
 
 .boton {
-  width: 7%;
+  width: 9%;
   height: 50px;
+  background-color: white; 
   display: flex;
   justify-content: center;
   align-self: end;
-  color: #36769c;
   padding: 0px 10px;
-  border: #36769C solid 1px;
+  border: 1px solid #36769C;
   border-radius: 20px;
   margin: 30px 1015px 30px;
 }
 
 .flecha {
+  margin-top: 12px;
   margin-right: 5px; /*el espacio entre la flecha y el texto*/
 }
 
 .textoFlecha {
+  font-family: "Roboto";
+  font-weight: 500;
   font-size: 14px;
   display: flex;
   margin-top: 16px;
+  color: #36769c;
 }
 
 .contenedorDos { 
   width: 75%;
   height: 217px;
-  text-align: center;
-  border-bottom: #00ECD9 solid 2px; 
+  border-bottom: 2px solid #00ECD9; 
 }
 
-.subtitulo {
-  font-family: "Roboto"; /*ver cambiar espacio*/
-  font-weight: 300;
-  font-size: 29px;
+h2 {
+  font-family: "Rubik"; /*(paleta de colores: rubik 500)*/
+  font-weight: 400;   
   color: #36769C;
+  margin: 0px auto 40px;
 }
 
 .textoUno {
-  font-family: "Roboto";
-  font-weight: 600;
-  font-size: 18px;
+  line-height: 10%;
   color: #36769C;
 }
 
-.contenedorDos .textoUno:last-of-type{
-  margin-top: 0px;
+.contenedorDos .textoUno:last-of-type {
   margin-bottom: 90px;
 }
 
@@ -83,28 +81,37 @@
   margin-left: 320px; 
 }
   
-.contenedorTres {   /*verlos espacios de bottom*/
+.contenedorTres {   
   width: 25%;
   height: 550px;
-  border: transparent solid 5px;
+  border: 2px solid transparent;
   text-align: center;
 }
 
 .logo {
   width: 70%;
   height: 200px;
-  border: #EDEDED solid 1px;
-  border-radius: 20px;
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
 }
 
 .logoTitulo {
-  font-size: 18px;
   color: #4890EA;
   position: relative;
   top: 18px;
 }
 
+.textoUno, .logoTitulo {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .texto {
-  font-size: 29px; /*CONSULTAR*/
-  text-align: center;
+  font-family: "Roboto"; 
+  font-weight: 400;
+}
+
+h2, .texto {
+  font-size: 29px; /*CONSULTAR sino 38px*/
 }
