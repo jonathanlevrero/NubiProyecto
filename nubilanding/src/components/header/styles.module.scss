@@ -10,10 +10,12 @@ header {
   flex-direction: row;
   justify-content: flex-end;
 }
+
 nav ul {
   display: flex;
   
 }
+
 .registrate{
   color: $color-boton;
   margin-right: 10px;
@@ -23,6 +25,7 @@ nav ul {
   background-color: transparent;
   border: transparent;
 }
+
 .iniciarSesion{
   color: #ffffff;
   background-color: $color-boton;
@@ -34,6 +37,7 @@ nav ul {
   font-size: 14px;
   font-weight: 500;
 }
+
 .navicon{
   display: flex;
   color: $color-boton;
