@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-function header() {
+function Header() {
     return (
     <header>
       <nav>
@@ -17,4 +17,4 @@ function header() {
   }
 
 
-export default header;
+export default Header;
