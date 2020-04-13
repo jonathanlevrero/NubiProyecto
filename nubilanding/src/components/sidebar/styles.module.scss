@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500&display=swap");
 $color-fondo: #eeeeee;
 $color-letra: #214960;
 $color-boton: #567efb;
-.contenedor{
+
+.contenedor {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -19,17 +19,22 @@ $color-boton: #567efb;
   font-style: italic;
   font-size: 18px;
   font-weight: 500;
-  
 }
-p{
-margin-left: 10px;
-margin-bottom: 10px;
+
+li {
+  margin-bottom: 25px;
+  list-style-type: none;
+  text-align: left;
+  position: relative;
+  right: 20px;
 }
-.botones{
+
+.botones {
   display: flex;
   margin-left: 15px;
   margin-top: 10px;
 }
+
 .registrate {
   color: #ffffff;
   margin-right: 10px;
@@ -39,6 +44,7 @@ margin-bottom: 10px;
   background-color: transparent;
   border: transparent;
 }
+
 .iniciarSesion {
   color: $color-boton;
   background-color: #ffffff;
@@ -50,7 +56,8 @@ margin-bottom: 10px;
   font-size: 14px;
   font-weight: 500;
 }
-.cruz{
+
+.cruz {
   width: 15px;
   margin-left: 15px;
 }
