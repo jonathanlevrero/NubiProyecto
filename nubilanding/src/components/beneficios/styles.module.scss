@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:300,400,500,500i&display=swap");
+
+.contenedorGeneral {
+  width: 100%;
+  height: 750px;  /*lo agrande para igualar la altura  entre los primeros parrafos(top) y el boton(botton)*/  
+  background-color: #eeeeef;
+}
+
+.contenedorBeneficios {
+  width: 100%;  /*remember no tiene que tener margin para agrandar el top*/
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedorParrafos {
+  width: 30%; /*el ancho esta bien en web*/
+  height: 150px;
+  text-align: justify;
+  margin: 50px 30px 20px;
+}
+
+.titulo {
+  font-family: "Rubik";
+  font-weight: 500; /*esto es para especificar grosor*/
+  font-style: italic;
+  font-size: 36px;
+  color: #214960;
+}
+
+.guion {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 36px;
+  color: #00fccb;
+  margin: 0;
+  position: relative;
+  bottom: 45px;
+}
+
+.texto {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 17px;
+    color: #214960;
+    position: relative;
+    bottom: 70px;
+  }
+
+.boton {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  color: #faf3fd;
+  background-color: #567efb;
+  padding: 18px 41px;
+  border: transparent solid 1px;
+  border-radius: 30px;
+  position: relative;
+  left: 540px;
+  top: 135px;
+}

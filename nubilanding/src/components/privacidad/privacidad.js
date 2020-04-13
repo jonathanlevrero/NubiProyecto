@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import LogoISO from "../../assets/Isologo.jpg";
+import Footer from "../footer/footer"
 
 function Privacidad() {
   return (
@@ -118,6 +119,7 @@ function Privacidad() {
         </div>
         <img className={styles.imagenIso}src={LogoISO} alt="Imagen ISO"/>
       </div>
+      <Footer />
     </div>
   );
 }

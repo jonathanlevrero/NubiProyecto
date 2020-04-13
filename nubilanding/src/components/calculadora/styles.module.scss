@@ -1,0 +1,120 @@
+.contenedor {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 30px 0;
+}
+
+.titulo {
+  font-family: "Rubik";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  color: #214960;
+}
+
+.calculadora {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 115px 0 100px 65px;
+}
+
+.seccionValor {
+  width: 42%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  input:first-child {
+    width: 84%;
+    font-size: 80px;
+    font-family: "Roboto";
+    color: darkgray;
+    border: transparent;
+    border-bottom: solid 2px #567efb;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    outline: none;
+  }
+}
+
+::placeholder {
+  color: #c8c8c8;
+}
+
+.textoMontoInput {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: #567efb;
+}
+
+.inputRadio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: #567efb;
+
+  &:nth-child(3):hover {
+    .marcado {
+      background-color: #ccc;
+    }
+  }
+
+  &:nth-child(2n) {
+    color: darkgray;
+  }
+
+  .inputCheck {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 125px;
+    left: 20px;
+    margin: 0;
+
+    &:checked {
+      ~ .marcado {
+        background-color: #2196f3;
+      }
+    }
+  }
+}
+
+.marcado {
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  height: 14px;
+  width: 14px;
+  background-color: darkgray;
+  border-radius: 50%;
+}
+
+.flecha {
+  margin-top: 30px;
+}
+
+.boton {
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #567efb;
+  border-radius: 30px;
+  border: transparent;
+  width: 225px;
+  height: 60px;
+}

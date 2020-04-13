@@ -1,0 +1,113 @@
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #6a6a6a;
+  box-sizing: border-box;
+  padding: 0 40px 30px ;
+}
+
+.contenedorLogoNubi {
+  margin: 25px 0 0 10px;
+
+  p {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 11px;
+    color: #979696;
+    position: relative;
+    bottom: 20px;
+    right: 7px;
+  }
+}
+
+.contenedorLogoNubi p b {
+  font-size: 13px;
+}
+
+.contenedorLogoPaypal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+
+  img {
+    border-radius: 10px;
+    width: 40%;
+  }
+}
+
+.seguinos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 23%;
+  color: #ffffff;
+}
+
+.seguinos h2 {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-style: italic;
+}
+
+.logosRedes {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    background-color: #4a494a;
+    border: 7px solid #4a494a;
+    border-radius: 50px;
+    margin: 5px;
+  }
+}
+
+.logoInstagram:hover {
+  background-color: #bc2a8d;
+  border: 7px solid  #bc2a8d;
+}
+
+.logoTwitter:hover {
+  background-color: #00aced;
+  border: 7px solid #00aced;
+}
+
+.logoFacebook:hover {
+  background-color: #3b5998;
+  border: 7px solid #3b5998;
+}
+
+.logoYoutube:hover {
+  background-color: #e52d27;
+  border: 7px solid  #e52d27;
+}
+
+.contenedorBotones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 37%;
+  margin-top: 65px;
+
+  button {
+    background-color: #4a494a;
+    border: 5px solid #4a494a;
+    border-radius: 30px;
+    text-align: center;
+    color: #ffffff;
+    width: 29%;
+    height: 25px;
+    margin: 0 0 20px 0;
+    font-size: 10px;
+
+    &:hover {
+      background-color: grey;
+      border: solid grey;
+    }
+  }
+}
