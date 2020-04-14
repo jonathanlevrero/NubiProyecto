@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 function Header() {
-    return (
+  return (
     <header>
       <nav>
         <ul>
@@ -10,11 +10,11 @@ function Header() {
           <button className={styles.iniciarSesion}>Iniciar Sesión</button>
           <button className={styles.navicon}>
             &#9776;
-            </button>
+          </button>
         </ul>
       </nav>
-    </header>);
-  }
-
+    </header>
+  );
+}
 
 export default Header;

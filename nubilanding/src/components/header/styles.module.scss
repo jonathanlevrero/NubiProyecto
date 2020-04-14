@@ -14,10 +14,9 @@ header {
 
 nav ul {
   display: flex;
-  
 }
 
-.registrate{
+.registrate {
   color: $color-boton;
   margin-right: 10px;
   font-family: "Roboto";
@@ -27,7 +26,7 @@ nav ul {
   border: transparent;
 }
 
-.iniciarSesion{
+.iniciarSesion {
   color: #ffffff;
   background-color: $color-boton;
   border-radius: 30px;
@@ -39,7 +38,7 @@ nav ul {
   font-weight: 500;
 }
 
-.navicon{
+.navicon {
   display: flex;
   color: $color-boton;
   margin-left: 10px;
