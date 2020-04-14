@@ -7,7 +7,7 @@ class Form extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.contenedor}>
         <form>
           <label htmlFor="nombreApellido" >Nombre y Apellido:</label>
           <input type="text" id="nombreApellido" name="nombreApellido" value={this.state.nombreApellido} onChange={this.onChange}></input>
@@ -24,11 +24,11 @@ class Form extends React.Component {
             </div>
           </div>
 
-          <label htmlFor="si telefono" className={styles.labelRadio} >¿Tenés cuenta en PayPal? </label>
+          <label className={styles.labelRadio} >¿Tenés cuenta en PayPal? </label>
           <div className={styles.segundoForm}>
-            <input type="radio" id="Si" name="gender" value="Si" onChange={this.onChange} className={styles.ultimoInput} />
+            <input type="radio" id="Si" name="genero" value="Si" onChange={this.onChange} className={styles.ultimoInput} />
             <label htmlFor="Si" className={styles.ultimoLabel} >Si</label>
-            <input type="radio" id="No" name="gender" value="No" onChange={this.onChange} className={styles.ultimoInput} />
+            <input type="radio" id="No" name="genero" value="No" onChange={this.onChange} className={styles.ultimoInput} />
             <label htmlFor="No" className={styles.ultimoLabel} >No</label>
           </div>
           <button type="submit">Enviar</button>

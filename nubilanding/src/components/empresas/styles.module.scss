@@ -4,10 +4,9 @@
 }
 
 .contenedorTitulo {
-  /*#36769C  #5F5EFF #4890EA*/
-  width: 100%; /*2background-image: linear-gradient(to left, red , yellow);*/
-  height: 400px; /*1 background-image: linear-gradient(to bottom left, red, yellow);*/
-  background-image: linear-gradient(-90deg, #132E80, #4890ea); /*3*/
+  width: 100%; 
+  height: 400px; 
+  background-image: linear-gradient(-90deg, #132E80, #4890ea); 
 }
 
 .logos {
@@ -89,7 +88,7 @@ span,
   }
 }
 
-div form:first-child {
+.contenedor form:first-child {
   width: 57%;
   display: flex;
   flex-direction: column;
