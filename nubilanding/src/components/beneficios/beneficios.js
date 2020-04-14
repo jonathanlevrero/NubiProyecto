@@ -26,7 +26,7 @@ function Beneficios() {
           <p className={styles.texto}>Conocé dónde está tu dinero en todo momento. Sin comisiones ocultas.</p>
         </div>
       </div> {/*contenedorBeneficios*/}
-      <botton className={styles.boton}>Registrate Gratis</botton>
+      <button className={styles.boton}>Registrate Gratis</button>
     </div> /*contnedorGeneral*/
   );
 }
