@@ -1,0 +1,93 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contenedorTitulo {
+  background-image: url("../../assets/bg_main_about_us.png");
+  background-size: 117% 90%;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 435px;
+
+  h1 {
+    padding: 130px;
+    font-family: "Rubik";
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 600;
+    color: #214960;
+  }
+}
+
+.tituloSecundario {
+  width: 70%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 300;
+  color: #5480fc;
+}
+
+.contenedorInformacion {
+  width: 70%;
+
+  h2 {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 300;
+    color: #030D30;
+    border-bottom: solid 2px #6ef2c7;
+    padding-bottom: 30px;
+    margin-top: 100px;
+  }
+
+  p {
+    font-family: "Roboto";
+    font-size: 400;
+    font-size: 16.5px;
+    color: #214960;
+
+    &:nth-of-type(6) {
+      text-indent: 20px;
+      text-align: left;
+    }
+
+    &:nth-of-type(7) {
+      text-indent: 20px;
+      text-align: left;
+    }
+
+    &:nth-of-type(8) {
+      text-indent: 20px;
+      text-align: left;
+    }
+
+    &:nth-of-type(9) {
+      text-indent: 20px;
+      text-align: left;
+    }
+
+    &:nth-of-type(10) {
+      text-indent: 20px;
+      text-align: left;
+    }
+
+    &:nth-of-type(11) {
+      text-indent: 20px;
+      text-align: left;
+    }
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 100px;
+    }
+
+    &:nth-last-of-type(2) {
+      margin-top: 100px;
+    }
+  }
+}
