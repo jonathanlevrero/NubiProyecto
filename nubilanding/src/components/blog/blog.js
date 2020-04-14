@@ -6,7 +6,7 @@ function Blog() {
   return (
     <div className={styles.contenedorGeneral}>
       <div className={styles.contenedor}>
-        <h1 className={styles.titulo}>¡ Sumate a nuestro Blog!</h1>
+        <h1 id="blog" className={styles.titulo}>¡ Sumate a nuestro Blog!</h1>
         <p className={styles.texto}>Enterate de todas las novedades de Nubi</p>
         <p className={styles.texto}>suscribiéndote a nuestro Blog</p>
         <Form />

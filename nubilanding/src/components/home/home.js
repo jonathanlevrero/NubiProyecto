@@ -13,7 +13,7 @@ function Home() {
             <img className={styles.NubiPaypallogo} src={NubiPaypal} alt="Nubi Logo Paypal" />
           </div>
           <div className={styles.titulo}>
-            <h2 className={styles.textotitulo}>
+            <h2 id="home" className={styles.textotitulo}>
               Cobrá con Paypal y retirá a tu banco
             </h2>
           </div>

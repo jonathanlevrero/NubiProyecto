@@ -21,7 +21,7 @@ class Calculadora extends React.Component {
   render() {
     return (
       <div className={styles.contenedor}>
-        <h2 className={styles.titulo}>Calculá tu retiro o recarga</h2>
+        <h2 id="calculadora" className={styles.titulo}>Calculá tu retiro o recarga</h2>
         <form className={styles.calculadora}>
           <div className={styles.seccionValor}>
             <input type="text" maxLength="6" value={this.state.value} onChange={this.onChange}  placeholder="0" name="monto" id="monto" />

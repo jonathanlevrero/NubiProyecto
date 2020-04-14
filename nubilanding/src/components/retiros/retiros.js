@@ -5,7 +5,7 @@ function Retiros() {
   return (
     <div className={styles.contenedorGeneral}>
       <div className={styles.contenedorRetira}>
-        <h2 className={styles.titulos}>Retirá de tu cuenta PayPal</h2>
+        <h2 id="retiros" className={styles.titulos}>Retirá de tu cuenta PayPal</h2>
         <p className={styles.textoRetiros}>
           Vendé en todo el mundo con PayPal y retirá tu plata con Nubi en 3 días
           hábiles a cuanquier banco en Argentina.
