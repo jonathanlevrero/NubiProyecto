@@ -1,0 +1,57 @@
+$color-fondo: #eeeeee;
+$color-letra: #214960;
+$color-boton: #567efb;
+
+.contenedor {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: $color-fondo;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+.registrate {
+  color: $color-boton;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: transparent;
+}
+
+.iniciarSesion {
+  color: #ffffff;
+  background-color: $color-boton;
+  border-radius: 30px;
+  border: transparent;
+  width: 115px;
+  height: 25px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navicon {
+  display: flex;
+  color: $color-boton;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  background-color: transparent;
+  border: transparent;
+}

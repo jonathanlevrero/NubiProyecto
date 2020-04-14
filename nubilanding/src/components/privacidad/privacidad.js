@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import LogoISO from "../../assets/Isologo.jpg";
-import Footer from "../footer/footer"
+import Footer from "../footer/footer";
+import Header from "../header/header";
 
 function Privacidad() {
   return (
     <div className={styles.contenedor}>
+      <Header/>
       <div className={styles.contenedorTitulo}>
         <h1>Política de privacidad Nubi</h1>
       </div>

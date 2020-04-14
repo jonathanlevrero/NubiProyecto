@@ -7,10 +7,12 @@ import Registrarse from "./components/registrarse/registrarse";
 import Beneficios from "./components/beneficios/beneficios";
 import Footer from "./components/footer/footer";
 import Blog from "./components/blog/blog";
+import Header from "./components/header/header";
 
 function App() {
   return (
     <div>
+      <Header />
       <Home />
       <Calculadora />
       <Recargas />
