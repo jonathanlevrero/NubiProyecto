@@ -16,7 +16,7 @@ function Nosotros() {
             forma en la que ves y manejás tus finanzas.
           </b>{" "}
           Abrazamos los desafíos porque creemos que aplicando creatividad e
-          innovación podemos lograr un cambion sustancial en la industria
+          innovación podemos lograr un cambio sustancial en la industria
           financiera tal cual la conocemos.
         </p>
         <p>
@@ -26,7 +26,7 @@ function Nosotros() {
           <b>simple, segura, rápida y transparente.</b>
         </p>
         <p>
-          Tenemos un <b>Equipo de Experiencia del Cliente</b> especializado para
+          Tenemos un <b>Equipo de Experiencia del Cliente</b> especializado
           para resolver todas las consultas e inquietudes que tengas de manera{" "}
           <b>personal, cercana y efectiva.</b>
         </p>
