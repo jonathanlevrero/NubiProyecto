@@ -8,12 +8,19 @@ import Beneficios from "./components/beneficios/beneficios";
 import Footer from "./components/footer/footer";
 import Blog from "./components/blog/blog";
 import Header from "./components/header/header";
-import Privacidad from "./components/privacidad/privacidad"
 
 function App() {
   return (
     <div>
-      <Privacidad />
+       <Header />
+      <Home />
+      <Calculadora />
+      <Recargas />
+      <Retiros />
+      <Beneficios />
+      <Blog />
+      <Registrarse />
+      <Footer />
     </div>
   );
 }
