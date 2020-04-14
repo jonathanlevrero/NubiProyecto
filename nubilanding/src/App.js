@@ -1,12 +1,7 @@
-import React from 'react';
-import Nosotros from "./components/nosotros/nosotros";
+import React from "react";
 
 function App() {
-  return (
-    <div>
-    <Nosotros />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
