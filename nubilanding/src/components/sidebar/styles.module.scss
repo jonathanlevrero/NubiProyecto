@@ -1,0 +1,63 @@
+$color-fondo: #eeeeee;
+$color-letra: #214960;
+$color-boton: #567efb;
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sidebar {
+  background-color: $color-boton;
+  width: 25%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+li {
+  margin-bottom: 25px;
+  list-style-type: none;
+  text-align: left;
+  position: relative;
+  right: 20px;
+}
+
+.botones {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.registrate {
+  color: #ffffff;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: transparent;
+}
+
+.iniciarSesion {
+  color: $color-boton;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: transparent;
+  width: 115px;
+  height: 25px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cruz {
+  width: 15px;
+  margin-left: 15px;
+}
