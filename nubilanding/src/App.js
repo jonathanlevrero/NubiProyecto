@@ -1,12 +1,7 @@
-import React from 'react';
-import TerminosCondiciones from "./components/terminos-condiciones/terminos-condiciones"
+import React from "react";
 
 function App() {
-  return (
-    <div>
-    <TerminosCondiciones />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
