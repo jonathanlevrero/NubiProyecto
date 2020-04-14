@@ -1,9 +1,9 @@
 .contenedorGeneral {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 100%; 
 }
 
 .contenedorTitulo {
@@ -12,7 +12,6 @@
   background-image: url("../../assets/bg_main_about_us.png");
   background-size: 117% 90%;
   background-repeat: no-repeat;
-  display: inline-block;   /*para que no me quedara un top blanco en la img-prensa- COMPARAR CON MATI*/
 
   h1 {
     font-family: "Rubik";
@@ -27,12 +26,12 @@
 .boton {
   width: 9%;
   height: 50px;
-  background-color: white; 
+  background-color: white;
   display: flex;
   justify-content: center;
   align-self: end;
   padding: 0px 10px;
-  border: 1px solid #36769C;
+  border: 1px solid #36769c;
   border-radius: 20px;
   margin: 30px 1015px 30px;
 }
@@ -51,22 +50,22 @@
   color: #36769c;
 }
 
-.contenedorDos { 
+.contenedorDos {
   width: 75%;
   height: 217px;
-  border-bottom: 2px solid #00ECD9; 
+  border-bottom: 2px solid #00ecd9;
 }
 
 h2 {
-  font-family: "Rubik"; /*(paleta de colores: rubik 500)*/
-  font-weight: 400;   
-  color: #36769C;
+  font-family: "Roboto"; /*(paleta de colores: rubik 500)*/
+  font-weight: 300;
+  color: #36769c;
   margin: 0px auto 40px;
 }
 
 .textoUno {
   line-height: 10%;
-  color: #36769C;
+  color: #36769c;
 }
 
 .contenedorDos .textoUno:last-of-type {
@@ -74,14 +73,24 @@ h2 {
 }
 
 .imagenesParrafos {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  margin-left: 320px; 
+  justify-content: space-evenly;
+
+  div:nth-child(10) {
+    position: relative;
+    right: 120px;
+  }
+
+  div:nth-child(11) {
+    position: relative;
+    right: 230px;
+  }
 }
-  
-.contenedorTres {   
+
+.contenedorTres {
   width: 25%;
   height: 550px;
   border: 2px solid transparent;
@@ -91,27 +100,29 @@ h2 {
 .logo {
   width: 70%;
   height: 200px;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 10px;
 }
 
 .logoTitulo {
-  color: #4890EA;
+  color: #4890ea;
   position: relative;
   top: 18px;
 }
 
-.textoUno, .logoTitulo {
+.textoUno,
+.logoTitulo {
   font-family: "Roboto";
   font-weight: 600;
   font-size: 18px;
 }
 
 .texto {
-  font-family: "Roboto"; 
-  font-weight: 400;
+  font-family: "Roboto";
+  font-weight: 300;
 }
 
-h2, .texto {
-  font-size: 29px; /*CONSULTAR sino 38px*/
+h2,
+.texto {
+  font-size: 29px; /*sino 38px*/
 }
