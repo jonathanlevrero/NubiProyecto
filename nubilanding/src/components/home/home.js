@@ -34,9 +34,10 @@ function Home() {
             Vendé con Paypal, retirá tu plata con Nubi
           </p1>
           <div className={styles.botonflex}>
-            <button className={styles.miraelvideo}>
+            <button title="retiros" href="https://www.youtube.com/watch?v=Q9UQA4bCgZc" className={styles.miraelvideo}>
               <img className={styles.play} src={Play} alt="Boton Play" />
-              <p1 className={styles.txtmiraelvideo}>Mirá el video</p1>
+
+              <a title="retiros" href="https://www.youtube.com/watch?v=Q9UQA4bCgZc"><p1 className={styles.txtmiraelvideo}>Mirá el video</p1></a>
             </button>
             <button className={styles.vermas}>
               Ver más
@@ -54,9 +55,9 @@ function Home() {
             <div className={styles.botonflex}>
               <button className={styles.miraelvideo}>
                 <img className={styles.play} src={Play} alt="Boton Play" />
-                <p1 className={styles.txtmiraelvideo}>
+                <a title="recargas" href="https://www.youtube.com/watch?v=5TJfwKvRke0"><p1 className={styles.txtmiraelvideo}>
                   Mirá el video
-                </p1>
+                </p1></a>
               </button>
               <button className={styles.vermas}>
                 Ver más
