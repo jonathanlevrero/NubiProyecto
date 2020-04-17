@@ -19,7 +19,7 @@ function Sidebar() {
           <li>Calculadora</li>
           <li>Blog</li>
           <li>Nosotros</li>
-          <li>Ayuda</li>
+          <a title="ayuda" href="https://soporte.tunubi.com/hc/es"><li>Ayuda</li> </a>
           <li>Prensa</li>
           <li>Empresas</li>
         </ul>
