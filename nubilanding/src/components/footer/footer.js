@@ -33,7 +33,7 @@ function Footer() {
         <button> <a title="ayuda" href="https://soporte.tunubi.com/hc/es">Ayuda</a></button>
         <button> <Link to="/terminos-condiciones">Términos y condiciones</Link></button>
         <button> <Link to="/nosotros">Nosotros</Link></button>
-        <button> <link to="/privacidad">Privacidad</link></button>
+        <button> <Link to="/privacidad">Privacidad</Link></button>
         <button>Nuestro blog</button>
         <button><Link to="/prensa"> Prensa </Link></button>
       </div>
