@@ -6,6 +6,7 @@ import LogoInstagram from "../../assets/ic_footer_instagram.svg";
 import LogoTwitter from "../../assets/ic_footer_twitter.svg";
 import LogoFacebook from "../../assets/ic_footer_facebook.svg";
 import LogoYoutube from "../../assets/ic_footer_youtube.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -29,12 +30,12 @@ function Footer() {
         </div>
       </div>
       <div className={styles.contenedorBotones}>
-        <button>Ayuda</button>
-        <button>Términos y condiciones</button>
-        <button>Nosotros</button>
-        <button>Privacidad</button>
+        <button> <a title="ayuda" href="https://soporte.tunubi.com/hc/es">Ayuda</a></button>
+        <button> <Link to="/terminos-condiciones">Términos y condiciones</Link></button>
+        <button> <Link to="/nosotros">Nosotros</Link></button>
+        <button> <link to="/privacidad">Privacidad</link></button>
         <button>Nuestro blog</button>
-        <button>Prensa</button>
+        <button><Link to="/prensa"> Prensa </Link></button>
       </div>
     </div>
   );

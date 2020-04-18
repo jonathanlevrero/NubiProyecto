@@ -4,7 +4,7 @@ import Home from "../home/home";
 import Empresas from "../empresas/empresas";
 import Nosotros from "../nosotros/nosotros";
 import Prensa from "../prensa/prensa";
-import TerminosCondiciones from "../terminosCondiciones/terminosCondiciones";
+import TerminosCondiciones from "../terminos-condiciones/terminos-condiciones";
 import Privacidad from "../privacidad/privacidad";
 
 function Main() {
