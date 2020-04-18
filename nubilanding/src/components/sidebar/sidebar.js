@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
 import cruz from '../../assets/ic_menu_close.svg'
-
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -13,15 +13,15 @@ function Sidebar() {
           <img className={styles.cruz} src={cruz} alt="cruz" />
         </div>
         <ul>
-          <li>Home</li>
+          <li><Link to="/home">Home</Link></li>
           <li>Recargas</li>
-          <li>Retiros</li>
+          <li>Retiros</li>duda
           <li>Calculadora</li>
-          <li>Blog</li>
-          <li>Nosotros</li>
+          <li>Blog</li> 
+          <li><Link to="/nosotros">Nosotros</Link></li>
           <li>Ayuda</li>
-          <li>Prensa</li>
-          <li>Empresas</li>
+          <li><Link to="/prensa">Prensa</Link></li>
+          <li><Link to="/empresas">Empresas</Link></li>
         </ul>
       </div>
     </div>
