@@ -3,6 +3,13 @@ import styles from './styles.module.scss';
 import NubiPaypal from '../../assets/nubi-paypal-logo.svg';
 import Celular from '../../assets/img_main_section_phone@2x.png';
 import Play from '../../assets/ic_play.svg';
+import Main from "../main/main";
+/*import Calculadora from "../calculadora/calculadora";
+import Recargas from "../recargas/recargas";
+import Retiros from "../retiros/retiros";
+import Registrarse from "../registrarse/registrarse";
+import Beneficios from "../beneficios/beneficios";
+import Blog from "../blog/blog";*/
 
 function Home() {
   return (
@@ -66,6 +73,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Main />
     </div>
   );
 }
